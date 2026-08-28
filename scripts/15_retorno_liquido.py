@@ -58,13 +58,13 @@ m = air_g.merge(viva_g, on=["suburb_norm", "tipologia"], how="inner")
 
 m["cond_anual_mediana"] = m["cond_mediana"] * 12
 m["iptu_anual_mediana"] = m["iptu_mediana"]
-m["receita_liquida_55"] = m["receita_55"] - m["cond_anual_mediana"] - m["iptu_anual_mediana"]
+m["receita_liq_encargos_55"] = m["receita_55"] - m["cond_anual_mediana"] - m["iptu_anual_mediana"]
 m["retorno_bruto_55_pct"] = m["receita_55"] / m["preco_venda_mediano"] * 100
-m["retorno_liquido_55_pct"] = m["receita_liquida_55"] / m["preco_venda_mediano"] * 100
+m["retorno_liq_encargos_55_pct"] = m["receita_liq_encargos_55"] / m["preco_venda_mediano"] * 100
 
 # 3 ativos recomendados
 ativos = [("MORRETES", "2Q"), ("CENTRO", "2Q"), ("MEIA PRAIA", "2Q")]
-print("===== RETORNO LÍQUIDO — 3 ATIVOS RECOMENDADOS (cenário base 55%) =====\n")
+print("===== RETORNO LÍQUIDO DE ENCARGOS — 3 ATIVOS RECOMENDADOS (cenário base 55%) =====\n")
 for b, t in ativos:
     r = m[(m["suburb_norm"] == b) & (m["tipologia"] == t)]
     if r.empty:
@@ -75,10 +75,10 @@ for b, t in ativos:
     print(f"  receita bruta anual (55%): R$ {r['receita_55']:,.2f}")
     print(f"  condomínio anual (mediana {r['cond_mediana']}*12):  R$ {r['cond_anual_mediana']:,.2f}")
     print(f"  IPTU anual (mediana {r['iptu_mediana']}):           R$ {r['iptu_anual_mediana']:,.2f}")
-    print(f"  receita líquida anual:       R$ {r['receita_liquida_55']:,.2f}")
+    print(f"  receita líquida de encargos anual: R$ {r['receita_liq_encargos_55']:,.2f}")
     print(f"  preço venda mediano:         R$ {r['preco_venda_mediano']:,.2f}")
     print(f"  retorno BRUTO 55%: {r['retorno_bruto_55_pct']:.2f}%")
-    print(f"  retorno LÍQUIDO 55%: {r['retorno_liquido_55_pct']:.2f}%")
+    print(f"  retorno LÍQUIDO DE ENCARGOS 55%: {r['retorno_liq_encargos_55_pct']:.2f}%")
     print()
 
 m.to_csv(os.path.join(OUT, "retorno_liquido_ativos.csv"), index=False)

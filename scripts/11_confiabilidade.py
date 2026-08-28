@@ -18,17 +18,17 @@ ret["nivel_confiabilidade"] = [nivel_conf(a, b) for a, b in zip(ret["n_listings"
 
 # ---- Retornos por cenários de ocupação (40/55/70) ----
 for tx, suf in [(0.40, "40"), (0.55, "55"), (0.70, "70")]:
-    ret[f"receita_anual_{suf}"] = ret["diaria_mediana"] * 365 * tx
-    ret[f"retorno_anual_{suf}_pct"] = ret[f"receita_anual_{suf}"] / ret["sale_price_mediana"] * 100
+    ret[f"receita_bruta_anual_{suf}"] = ret["diaria_mediana"] * 365 * tx
+    ret[f"retorno_bruto_anual_{suf}_pct"] = ret[f"receita_bruta_anual_{suf}"] / ret["sale_price_mediana"] * 100
 
 # salva classificada
 ret.to_csv(os.path.join(OUT, "retorno_financeiro_classificado.csv"), index=False)
 
 # ---- Tabela filtrada ALTA + MÉDIA ----
 cols = ["suburb_norm", "tipologia", "nivel_confiabilidade", "diaria_mediana",
-        "sale_price_mediana", "retorno_anual_40_pct", "retorno_anual_55_pct", "retorno_anual_70_pct"]
+        "sale_price_mediana", "retorno_bruto_anual_40_pct", "retorno_bruto_anual_55_pct", "retorno_bruto_anual_70_pct"]
 filt = ret[ret["nivel_confiabilidade"].isin(["ALTA", "MEDIA"])].copy()
-filt = filt.sort_values("retorno_anual_55_pct", ascending=False).reset_index(drop=True)
+filt = filt.sort_values("retorno_bruto_anual_55_pct", ascending=False).reset_index(drop=True)
 
 print("===== PAres ALTA + MEDIA confiabilidade (ord. retorno base 55%) =====")
 print(filt[cols].to_string(index=False))

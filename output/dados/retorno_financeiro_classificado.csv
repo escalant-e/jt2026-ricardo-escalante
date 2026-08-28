@@ -1,4 +1,4 @@
-suburb_norm,tipologia,diaria_mediana,n_listings,receita_anual_projetada,sale_price_mediana,n_anuncios,retorno_bruto_anual_pct,nivel_confiabilidade,receita_anual_40,retorno_anual_40_pct,receita_anual_55,retorno_anual_55_pct,receita_anual_70,retorno_anual_70_pct
+suburb_norm,tipologia,diaria_mediana,n_listings,receita_anual_projetada,sale_price_mediana,n_anuncios,retorno_bruto_anual_pct,nivel_confiabilidade,receita_bruta_anual_40,retorno_bruto_anual_40_pct,receita_bruta_anual_55,retorno_bruto_anual_55_pct,receita_bruta_anual_70,retorno_bruto_anual_70_pct
 ILHOTA,1Q,345.5,2,69359.125,220000.0,5,31.526875,BAIXA,50443.0,22.928636363636365,69359.125,31.526874999999997,88275.25,40.125113636363636
 CANTO DA PRAIA,1Q,793.0,1,159194.75,780000.0,7,20.40958333333333,BAIXA,115778.0,14.843333333333334,159194.75,20.409583333333334,202611.5,25.97583333333333
 SERTAOZINHO,2Q,500.0,1,100375.0,529360.0,1,18.96157624301043,BAIXA,73000.0,13.790237267643949,100375.00000000001,18.96157624301043,127749.99999999999,24.132915218376905

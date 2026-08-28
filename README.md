@@ -8,7 +8,7 @@
 
 Análise completa e decisão de investimento no **`relatorio.md`** (resumo executivo, Q1–Q4, posição sobre a tese dos compactos e metodologia).
 
-**Resumo da recomendação:** apartamentos **2Q** em **MORRETES**, **CENTRO** e **MEIA PRAIA** — com retorno líquido estimado (cenário 55% de ocupação) de **10,8%**, **9,2%** e **7,9%** ao ano, respectivamente. Os dados refutam a tese original dos "compactos 1Q no Centro": o eficiente é o **2Q**, e o melhor retorno está em **Morretes**.
+**Resumo da recomendação:** apartamentos **2Q** em **MORRETES**, **CENTRO** e **MEIA PRAIA** — com retorno líquido de encargos imobiliários (cenário 55% de ocupação) de **10,8%**, **9,2%** e **7,9%** ao ano, respectivamente. Sobre a tese dos "compactos 1Q no Centro", a leitura é de **tese parcialmente validada e reposicionada**: unidades pequenas de fato têm alta eficiência de capital, mas o ótimo está no **2Q**, e o melhor retorno em **Morretes**.
 
 ---
 
@@ -30,17 +30,20 @@ python scripts/02_dominio.py         # domínio de campos
 python scripts/03_join_precos.py     # join + diária/dias observados
 python scripts/04_auditoria.py       # integridade do join / outliers
 python scripts/05_limpeza.py         # limpeza (bairro none, outlier)
+python scripts/06_diagnostico_av.py  # diagnóstico da natureza do Price_AV (disponibilidade vs ocupação)
 python scripts/07_receita_cenarios.py# receita em 3 cenários de ocupação
 python scripts/09_consolidado.py     # tabela consolidada [bairro+tipologia]
 python scripts/11_confiabilidade.py  # classificação de confiabilidade
 python scripts/12_respostas_q1q2q3.py# respostas Q1/Q2/Q3
 python scripts/13_eficiencia_capital.py # receita/m² e retorno por tipologia
 python scripts/14_regressao_q3.py    # regressão Q3
-python scripts/15_retorno_liquido.py # retorno líquido dos 3 ativos
+python scripts/15_retorno_liquido.py # retorno líquido de encargos dos 3 ativos
 ```
 
 Cada script grava seus produtos na pasta `output/dados/` e imprime resumos no terminal.
-Scripts exploratórios (01, 02, 06, 08) apenas imprimem análise/relatórios no terminal.
+Scripts exploratórios (01, 02, 06, 08) apenas imprimem análise/relatórios no terminal — o `06` é a evidência do processo analítico (a investigação de que o `Price_AV` = disponibilidade, não ocupação, o que motivou a modelagem por cenários de ocupação).
+
+> **Nota**: os arquivos em `output/dados/*.csv` **já contêm os produtos finais** — não é preciso rodar o pipeline para ler a resposta (em `relatorio.md`). Os scripts existem para reprodutibilidade.
 
 ---
 
