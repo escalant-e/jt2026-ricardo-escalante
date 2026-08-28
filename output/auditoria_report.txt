@@ -1,0 +1,66 @@
+﻿Linhas: 4441 | Colunas: 52
+============================================================
+
+[1] INTEGRIDADE DO JOIN (nulos / vazios)
+  suburb                       nulos=    0 (  0.0%)  vazios=0
+  host owner (nome)            nulos=    0 (  0.0%)  vazios=0
+  host is_superhost            nulos=    0 (  0.0%)  vazios=0
+  host num_reviews             nulos=    0 (  0.0%)  vazios=0
+  host star_rating             nulos=    0 (  0.0%)  vazios=0
+  diaria_media                 nulos= 3442 ( 77.5%)  vazios=0
+  dias_ocupados                nulos= 3442 ( 77.5%)  vazios=0
+
+  -> Linhas onde suburb Θ nulo/vazio:
+    count: 0
+
+[2] RESUMO ESTAT═STICO DI┴RIA M╔DIA (com preτo, n=999)
+  describe:
+count      999.000000
+mean       682.540050
+std        584.179678
+min         95.423729
+1%         165.875294
+5%         276.224515
+25%        432.053391
+50%        577.691667
+75%        765.724999
+95%       1385.537734
+99%       2353.482624
+max      10000.000000
+  min: 95.42372881355932 | max: 10000.0
+  n dißrias <= 0: 0
+  P99: 2353.48
+  qnt acima de P99: 10
+  dißria > 3000: 5
+  dißria > 5000: 3
+
+  amostra dißrias top 10 (mais caras):
+657     10000.000000
+3158    10000.000000
+2568     5622.661111
+1383     3900.000000
+1306     3517.750000
+2741     2882.669903
+1788     2654.426686
+2191     2586.395161
+3984     2417.045455
+3733     2397.796875
+
+[3] BAIRROS ┌NICOS (grafia)
+suburb
+Meia Praia                 2860
+Centro                      657
+Morretes                    441
+Tabuleiro dos Oliveiras     129
+Casa Branca                  88
+Alto Sao Bento               62
+Ilhota                       56
+Varzea                       43
+Canto da Praia               28
+Sertao do Trombudo           22
+Sertaozinho                  21
+Leopoldo Zarling             18
+Jardim Praiamar               5
+none                          5
+Areal                         5
+Lameiro                       1

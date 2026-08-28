@@ -1,0 +1,6 @@
+﻿Total linhas master geral: 4441
+bairro 'none' convertidos a NaN: 5
+outliers diaria>3000 (flag True): 5
+linhas 'com preco ok' (para agregacoes): 994
+
+Salvos: master_joined_limpo.csv (geral) e preco_ok.csv (com preco ok)
