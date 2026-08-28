@@ -1,0 +1,30 @@
+﻿=== SAZONALIDADE por dia da semana (dißria mediana) ===
+ dia_semana  diaria_mediana  diaria_media  n_linhas
+          0           590.0    705.144728      8230
+          1           582.0    703.482729      8307
+          2           580.0    698.134993      8518
+          3           590.0    702.082880      8532
+          4           600.0    717.887125      8476
+          5           600.0    721.428927      8424
+          6           590.0    707.065817      8553
+
+=== SAZONALIDADE por mΩs (dißria mediana) ===
+ mes  diaria_mediana  diaria_media  n_linhas
+   1           790.0    952.194842      5479
+   2           675.0    784.222550     16266
+   3           550.0    671.957643     23960
+   4           480.0    578.955753     13335
+
+=== preco_ok: n║ de listings e receitas por cenßrio ===
+total preco_ok: 994
+       diaria_mediana  receita_bruta_conservador  receita_bruta_base  receita_bruta_otimista
+count      994.000000                 994.000000          994.000000              994.000000
+mean       629.299490               91877.725568       126331.872656           160786.019744
+std        356.245124               52011.788083        71516.208614            91020.629145
+min        100.000000               14600.000000        20075.000000            25550.000000
+25%        400.000000               58400.000000        80300.000000           102200.000000
+50%        550.000000               80300.000000       110412.500000           140525.000000
+75%        750.000000              109500.000000       150562.500000           191625.000000
+max       3000.000000              438000.000000       602250.000000           766500.000000
+
+Salvos: master_joined_limpo.csv, preco_ok.csv, sazonalidade_*.csv, price_agregado_por_listing.csv

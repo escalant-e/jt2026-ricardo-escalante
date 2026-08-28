@@ -1,0 +1,36 @@
+﻿Linhas: 118839 | listings: 1005
+Ap≤s dedupe (listing,date): 59040 linhas
+
+Distribuiτπo por dia da semana (todas linhas com preτo):
+   dia_semana     n  preco_med
+0           0  8230      590.0
+1           1  8307      582.0
+2           2  8518      580.0
+3           3  8532      590.0
+4           4  8476      600.0
+5           5  8424      600.0
+6           6  8553      590.0
+
+Preenchimento do calendßrio (n_datas / janela min->max):
+count    1005.000000
+mean        0.794983
+std         0.185579
+min         0.159420
+25%         0.676471
+50%         0.830769
+75%         0.975904
+max         1.000000
+
+Exemplo listing 52059007
+n_datas: 105 | range: 2025-01-06 00:00:00 -> 2025-04-20 00:00:00
+dias da semana do exemplo:
+ date
+0    15
+1    15
+2    15
+3    15
+4    15
+5    15
+6    15
+
+Datas globalmente presentes: 105 de 105 possφveis na janela 06jan-20abr
