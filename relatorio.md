@@ -192,6 +192,35 @@ O `Price_AV` cobre **22,4% do universo total de listings** (994 de 4.441 anúnci
 
 **Implicações**: (i) bairros com cobertura alta (CENTRO, CANTO DA PRAIA) têm estimativas de diária/receita mais robustas; (ii) bairros de baixa cobertura (ALTO SAO BENTO, LEOPOLDO ZARLING e outros com ≤5 listings) são pouco representados e tiveram menos peso na decisão; (iii) como o `Price_AV` só cobre a janela de verão, esse viés soma-se à limitação sazonal já descrita. Usamos a **mediana** (robusta a isso) e excluímos da decisão pares com volume mínimo.
 
+---
+
+## Uso de IA no processo
+
+A IA (OpenCode + DeepSeek) foi usada como **assistente colaborativo de análise**, com o humano sempre no comando das decisões de critério:
+
+- **Exploração e preparação de dados**: a IA gerou e iterou os scripts 01–15 (inspeção, limpeza, receita por cenários, regressão), e produziu a visualização HTML das bases brutas para revisão.
+- **Discussão de hipóteses**: a cada etapa, a IA propôs hipóteses e aguardou validação — nenhum marco foi avançado sem aval explícito.
+- **Descoberta de inconsistências**: linhas duplicadas de owner, `min_nights` constante, bairro `none`, pares com n mínimo — identificados pela IA e tratados com decisão do analista.
+- **Ponto de virada (Price_AV)**: a IA executou o diagnóstico que mostrou que `Price_AV` é **disponibilidade/precificação**, não ocupação → decisão conjunta de modelar por **cenários de ocupação** (`06_diagnostico_av.py`).
+- **Auditoria crítica**: a IA revisou o relatório como revisor sênior, apontando a sensibilidade do limiar de confiabilidade, a nomenclatura financeira e a ausência de racional econômico — correções incorporadas.
+- **Tudo isso documentado em `ai-log/`** (conversas exportadas em texto) e resumido em `roteiro_video.md`.
+
+Deixamos explícito o **limite de responsabilidade**: os critérios de decisão (outlier R$ 3.000, taxas 40/55/70%, filtros do VivaReal, nomenclatura, tom da tese) foram **decisões do analista**.
+
+---
+
+## O que faríamos com mais uma semana
+
+1. **Dados de ano completo** (e não só jan–abr/2025) para calibrar sazonalidade real e ocupação/renda de inverno — eliminando a principal limitação da análise.
+2. **Custos operacionais reais do short stay** (limpeza, energia, taxa de plataforma, vacância, gestão) para converter o *retorno líquido de encargos* em **NOI/cap rate completo**.
+3. **Modelo preditivo mais robusto** (validação cruzada, teste de VIF, árvores/feature importance) + variáveis derivadas (distância à praia, densidade de oferta por bairro-tipo).
+4. **Análise de liquidez imobiliária** (tempo de venda, dispersão de preços e de diárias dentro do mesmo bairro-tipo).
+5. **Benchmark com a operação da Seazone** e análise da **competição local** (hosts profissionais por bairro-tipo).
+6. **Validação externa da tese de Morretes** (dados censitários/geográficos, oferta de lançamentos) para testar a hipótese de renda da terra urbana.
+7. **Análise de sensibilidade do limiar de confiabilidade** (5/10/15/20 listings) para mostrar a robustez da recomendação 2Q.
+
+---
+
 ## Arquivos de apoio
 - `scripts/` — pipeline numerado (01 a 15), incluindo `06_diagnostico_av.py` (evidência da investigação sobre a natureza do `Price_AV`)
 - `output/dados/` — planilhas finais sincronizadas com este relatório (nomenclatura `retorno_bruto_*` e `retorno_liq_encargos_*`)
