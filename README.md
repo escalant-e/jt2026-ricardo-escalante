@@ -68,6 +68,7 @@ jt2026-ricardo-escalante/
 ## Onde está a resposta
 
 - **Recomendação e análise**: [`relatorio.md`](relatorio.md)
+- **Roteiro do vídeo + como a IA foi usada + próximos passos**: [`roteiro_video.md`](roteiro_video.md)
 - **Registro do processo com IA**: pasta [`ai-log/`](ai-log/)
 - **Pesquisas/planilhas**: `output/dados/`
 - **Código**: `scripts/`

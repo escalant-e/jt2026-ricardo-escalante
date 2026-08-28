@@ -196,4 +196,5 @@ O `Price_AV` cobre **22,4% do universo total de listings** (994 de 4.441 anúnci
 - `scripts/` — pipeline numerado (01 a 15), incluindo `06_diagnostico_av.py` (evidência da investigação sobre a natureza do `Price_AV`)
 - `output/dados/` — planilhas finais sincronizadas com este relatório (nomenclatura `retorno_bruto_*` e `retorno_liq_encargos_*`)
 - `output/visualizacao_brutos.html` — inspeção visual da base bruta
+- `roteiro_video.md` — como a IA foi usada, o que faria com mais uma semana e o roteiro do vídeo
 - `ai-log/` — registro das conversas com a IA (processo)
