@@ -1,0 +1,78 @@
+﻿======================================================================
+Q1 ù MELHOR PERFIL DE IM╙VEL (tipologia / n║ quartos / tipo an·ncio)
+======================================================================
+
+-- Por Tipologia (faixa de quartos) --
+             n  diaria_mediana  receita_anual
+tipologia                                    
+4Q+         89          1050.0      210787.50
+3Q         404           650.0      130487.50
+2Q         349           450.0       90337.50
+1Q         149           385.0       77288.75
+
+-- Por listing_type (tipo de an·ncio) --
+                n  diaria_mediana  receita_anual
+listing_type                                    
+apartamento   908          557.25      111867.94
+casa           65          450.00       90337.50
+hotel           1          330.00       66247.50
+outros         17          150.00       30112.50
+
+-- Por is_professional --
+                   n  diaria_mediana  receita_anual
+is_professional                                    
+False            792           549.0      110211.75
+True             188           564.0      113223.00
+
+======================================================================
+Q2 ù MELHOR LOCALIZA╟├O (bairro) em termos de receita
+======================================================================
+
+-- Por bairro (receita/ano cenßrio base) --
+                           n  diaria_mediana  receita_anual
+suburb_norm                                                
+MEIA PRAIA               630          590.00      118442.50
+CANTO DA PRAIA             8          558.75      112169.06
+AREAL                      1          556.00      111617.00
+TABULEIRO DOS OLIVEIRAS   20          540.00      108405.00
+CENTRO                   205          509.00      102181.75
+SERTAOZINHO                5          500.00      100375.00
+ILHOTA                    10          495.00       99371.25
+MORRETES                  82          470.50       94452.88
+VARZEA                     5          450.00       90337.50
+SERTAO DO TROMBUDO         3          390.00       78292.50
+CASA BRANCA               15          349.00       70061.75
+ALTO SAO BENTO             5          280.00       56210.00
+JARDIM PRAIAMAR            1          200.00       40150.00
+LEOPOLDO ZARLING           1          200.00       40150.00
+
+======================================================================
+Q3 ù CARACTER═STICAS QUE EXPLICAM AS MELHORES RECEITAS
+======================================================================
+
+-- Correlaτπo de caracterφsticas com receita/ano base --
+receita_bruta_base            1.000000
+diaria_mediana                1.000000
+number_of_bedrooms            0.592093
+number_of_bathrooms           0.571548
+number_of_guests              0.537107
+number_of_beds                0.393116
+cleaning_fee                  0.328554
+picture_count                 0.178151
+years_host                    0.045046
+number_of_reviews_host       -0.060625
+guest_satisfaction_overall   -0.070306
+number_of_reviews            -0.101183
+location_rating              -0.126759
+star_rating                  -0.136523
+accuracy_rating              -0.139703
+value_rating                 -0.144152
+communication_rating         -0.150694
+cleanliness_rating           -0.160385
+min_nights                         NaN
+
+-- Receita mediana por superhost --
+                 median  count
+is_superhost                  
+False         115431.25    559
+True          103787.75    432

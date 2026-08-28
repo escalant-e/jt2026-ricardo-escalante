@@ -1,0 +1,19 @@
+﻿Pares com ßrea disponφvel: 29
+
+===== N═VEL 1 ù FATURAMENTO BRUTO por tipologia =====
+           receita_anual_mediana  n_pares
+tipologia                                
+4Q+                     200750.0        6
+3Q                      120450.0        8
+2Q                       89936.0        8
+1Q                       72270.0        7
+
+===== N═VEL 2 ù EFICI╩NCIA DE CAPITAL por tipologia =====
+           receita_por_m2_mediana  retorno_bruto_mediano  n_pares
+tipologia                                                        
+2Q                        1202.15                  10.25        8
+1Q                        1806.75                   9.63        7
+3Q                        1183.19                   8.98        8
+4Q+                       1113.61                   5.72        6
+
+Salvo: output/eficiencia_capital_tipologia.csv
