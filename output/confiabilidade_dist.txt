@@ -1,0 +1,48 @@
+﻿Pares completos: 29
+
+===== Distribuiτπo de volumes =====
+n_listings (Airbnb):
+count     29.000000
+mean      33.448276
+std       70.094623
+min        1.000000
+10%        1.000000
+25%        2.000000
+50%        4.000000
+75%       41.000000
+90%       70.000000
+max      332.000000
+
+n_anuncios (VivaReal):
+count      29.000000
+mean      205.896552
+std       427.660776
+min         1.000000
+10%         1.800000
+25%         5.000000
+50%        22.000000
+75%       111.000000
+90%       556.600000
+max      1679.000000
+
+===== Pares por faixa de n_listings (Airbnb) =====
+n_listings
+(0, 4]       15
+(4, 9]        3
+(9, 19]       3
+(19, 200]     7
+
+===== Pares por faixa de n_anuncios (VivaReal) =====
+n_anuncios
+(0, 9]        10
+(9, 29]        5
+(29, 99]       6
+(99, 2000]     8
+
+===== Matriz: n_listings vs n_anuncios =====
+n_anuncios  1-9  10-29  30-99  100+
+n_listings                         
+1-4          10      3      2     0
+5-9           0      0      2     1
+10-19         0      1      0     2
+20+           0      1      2     4

@@ -1,0 +1,90 @@
+﻿Total an·ncios VivaReal: 8329
+
+[1a] SALE_PRICE ùù percentis
+count    8.329000e+03
+mean     2.450770e+06
+std      2.480209e+06
+min      1.000000e+04
+1%       4.500000e+05
+5%       5.900000e+05
+10%      6.858000e+05
+25%      9.000000e+05
+50%      1.750000e+06
+75%      2.890000e+06
+90%      4.891000e+06
+95%      6.999000e+06
+99%      1.299074e+07
+max      4.400000e+07
+
+10 MENORES sale_price:
+1777     10000.0
+6257     99470.0
+1605    202658.0
+1720    202658.0
+1585    220000.0
+1498    250000.0
+1527    250000.0
+1811    255000.0
+2061    265575.0
+1619    280000.0
+
+[1b] USABLE_AREA ùù percentis
+count      8329.000000
+mean        196.688078
+std        2230.296098
+min           0.000000
+1%           38.560000
+5%           61.000000
+10%          67.000000
+25%          85.000000
+50%         128.000000
+75%         180.000000
+90%         238.000000
+95%         300.000000
+99%         811.000000
+max      188000.000000
+
+10 MENORES usable_area:
+1484    0
+1496    0
+5798    0
+5902    0
+8228    0
+207     0
+5885    0
+5542    0
+5904    0
+5894    0
+
+[2] CORTES CANDIDATOS
+an·ncios com area <= 15 m▓: 68 (0.82%)
+an·ncios com preτo <= R$ 50.000: 1 (0.01%)
+an·ncios que atendem AMBOS: 0
+an·ncios que atendem ßrea<=15 OU preτo<=50k: 69
+ßrea <= 15 (indep. preτo): 68
+preτo <= 50k (indep. ßrea): 1
+
+Amostra dos an·ncios que cairiam no corte (ßrea<=15 ou preτo<=50k):
+      listing_id  sale_price  usable_area  bedrooms listing_type                   suburb
+207   2656735900    425000.0            0         0      terreno           Alto Sπo Bento
+1484  2565793498    480000.0            0         0      terreno                 Morretes
+1496  2762425720    280000.0            0         0      terreno       Sertπo do Trombudo
+1607  2626746119    510000.0            1         0      terreno       Sertπo do Trombudo
+1608  2737602714    358000.0           15         1  apartamento                   Centro
+1777  2759234724     10000.0          437         7  apartamento                Andorinha
+5542  2762425719    699000.0            0         0      terreno              Casa Branca
+5792  2751941805    720000.0           10         1  apartamento                 Morretes
+5798  2762425915   1100000.0            0         0      terreno           Alto Sπo Bento
+5803  2751941220   1200000.0           10         3  apartamento               Meia Praia
+5836  2753041904    680000.0           10         2  apartamento                      NaN
+5842  2756559140   1150000.0           10         2  apartamento                Andorinha
+5847  2748326796    850000.0           13         2         casa  Tabuleiro dos Oliveiras
+5856  2752780394    850000.0           10         2  apartamento                 Morretes
+5860  2751942199    830000.0           10         1  apartamento                 Morretes
+5871  2751942297   1785000.0           10         3  apartamento               Meia Praia
+5874  2752780101   1199000.0           10         2  apartamento               Meia Praia
+5883  2751940127   1650000.0           10         3  apartamento               Meia Praia
+5885  2762426015   1300000.0            0         0      terreno                 Morretes
+5887  2751941221   1990000.0           10         3  apartamento           Castelo Branco
+
+Total a cortar: 69

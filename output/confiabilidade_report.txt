@@ -1,0 +1,24 @@
+﻿===== PAres ALTA + MEDIA confiabilidade (ord. retorno base 55%) =====
+            suburb_norm tipologia nivel_confiabilidade  diaria_mediana  sale_price_mediana  retorno_anual_40_pct  retorno_anual_55_pct  retorno_anual_70_pct
+               MORRETES        3Q                MEDIA           600.0            845000.0             10.366864             14.254438             18.142012
+               MORRETES        1Q                MEDIA           350.0            600000.0              8.516667             11.710417             14.904167
+               MORRETES        2Q                 ALTA           446.0            790000.0              8.242532             11.333481             14.424430
+TABULEIRO DOS OLIVEIRAS        2Q                MEDIA           425.0            780000.0              7.955128             10.938301             13.921474
+            CASA BRANCA        2Q                MEDIA           350.0            655000.0              7.801527             10.727099             13.652672
+                 CENTRO        2Q                 ALTA           557.0           1145000.0              7.102358              9.765742             12.429127
+                 CENTRO        1Q                MEDIA           427.0            890000.0              7.004719              9.631489             12.258258
+             MEIA PRAIA        2Q                 ALTA           450.0           1065000.0              6.169014              8.482394             10.795775
+             MEIA PRAIA        1Q                 ALTA           360.0            877500.0              5.989744              8.235897             10.482051
+                 CENTRO        3Q                 ALTA           790.0           2100000.0              5.492381              7.552024              9.611667
+             MEIA PRAIA        3Q                 ALTA           650.0           1884860.0              5.034857              6.922928              8.810999
+             MEIA PRAIA       4Q+                 ALTA          1100.0           3700000.0              4.340541              5.968243              7.595946
+                 CENTRO       4Q+                MEDIA           900.0           3900000.0              3.369231              4.632692              5.896154
+               MORRETES       4Q+                MEDIA          1000.0           6170982.5              2.365912              3.253129              4.140346
+
+n de pares ALTA/MEDIA: 14
+
+===== RANKING TOP 3 (confiabilidade comprovada: ALTA) =====
+suburb_norm tipologia nivel_confiabilidade  diaria_mediana  sale_price_mediana  retorno_anual_40_pct  retorno_anual_55_pct  retorno_anual_70_pct
+   MORRETES        2Q                 ALTA           446.0            790000.0              8.242532             11.333481             14.424430
+     CENTRO        2Q                 ALTA           557.0           1145000.0              7.102358              9.765742             12.429127
+ MEIA PRAIA        2Q                 ALTA           450.0           1065000.0              6.169014              8.482394             10.795775

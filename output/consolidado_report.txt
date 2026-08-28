@@ -1,0 +1,41 @@
+﻿VivaReal bruto: 8329
+VivaReal apartamento, preco>=100k, area>=15: 7474
+
+Consolidado (todas as combinaτ⌡es): 61
+Retorno financeiro (pares completos): 29
+
+===== TABELA DE RETORNO FINANCEIRO (ord. por retorno bruto anual) =====
+            suburb_norm tipologia  n_listings  diaria_mediana  receita_anual_projetada  n_anuncios  sale_price_mediana  retorno_bruto_anual_pct
+                 ILHOTA        1Q           2           345.5                69359.125           5            220000.0                31.526875
+         CANTO DA PRAIA        1Q           1           793.0               159194.750           7            780000.0                20.409583
+            SERTAOZINHO        2Q           1           500.0               100375.000           1            529360.0                18.961576
+                 VARZEA        3Q           1           700.0               140525.000           3            795000.0                17.676101
+TABULEIRO DOS OLIVEIRAS        3Q           4           597.0               119847.750          14            830000.0                14.439488
+               MORRETES        3Q          11           600.0               120450.000         155            845000.0                14.254438
+               MORRETES        1Q           7           350.0                70262.500          48            600000.0                11.710417
+               MORRETES        2Q          59           446.0                89534.500        1043            790000.0                11.333481
+TABULEIRO DOS OLIVEIRAS        2Q          12           425.0                85318.750         111            780000.0                10.938301
+            CASA BRANCA        2Q          11           350.0                70262.500          20            655000.0                10.727099
+            CASA BRANCA        3Q           2           403.0                80902.250           7            778000.0                10.398747
+                 CENTRO        2Q          67           557.0               111817.750          88           1145000.0                 9.765742
+                 CENTRO        1Q          82           427.0                85720.250          22            890000.0                 9.631489
+             MEIA PRAIA        2Q         190           450.0                90337.500         242           1065000.0                 8.482394
+         CANTO DA PRAIA        2Q           4           509.0               102181.750          14           1221806.5                 8.363170
+             MEIA PRAIA        1Q          41           360.0                72270.000          58            877500.0                 8.235897
+     SERTAO DO TROMBUDO        1Q           2           380.0                76285.000           2            950000.0                 8.030000
+                 CENTRO        3Q          47           790.0               158592.500         435           2100000.0                 7.552024
+             MEIA PRAIA        3Q         332           650.0               130487.500        1679           1884860.0                 6.922928
+         CANTO DA PRAIA        3Q           3           600.0               120450.000          66           1769930.0                 6.805354
+                 ILHOTA       4Q+           1           946.0               189909.500          19           2845125.0                 6.674909
+TABULEIRO DOS OLIVEIRAS       4Q+           3          1350.0               271012.500           1           4085460.0                 6.633586
+         ALTO SAO BENTO        2Q           1           199.0                39949.250          35            618710.0                 6.456862
+             MEIA PRAIA       4Q+          67          1100.0               220825.000        1395           3700000.0                 5.968243
+     SERTAO DO TROMBUDO       4Q+           1          1000.0               200750.000           1           3675000.0                 5.462585
+                 ILHOTA        3Q           3           500.0               100375.000           4           2025000.0                 4.956790
+                 CENTRO       4Q+           9           900.0               180675.000         435           3900000.0                 4.632692
+               MORRETES       4Q+           5          1000.0               200750.000          58           6170982.5                 3.253129
+TABULEIRO DOS OLIVEIRAS        1Q           1           100.0                20075.000           3            699000.0                 2.871960
+
+Arquivos salvos:
+  output/consolidado_bairro_tipologia.csv
+  output/retorno_financeiro.csv
