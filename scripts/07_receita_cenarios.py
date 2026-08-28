@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "data")
-OUT  = os.path.join(os.path.dirname(__file__), "..", "output")
+OUT  = os.path.join(os.path.dirname(__file__), "..", "output", "dados")
 
 # ------------------------------------------------------------------
 # Estrita extração do Price_AV: diária + sazonalidade (sem "ocupação")
@@ -38,6 +38,7 @@ saz_mes = (pri.groupby("mes")["price"]
 # --------------------------------------------------------------------------
 # BASE MASTER: reutiliza o join e aplica limpeza + receita por cenário
 # --------------------------------------------------------------------------
+os.makedirs(OUT, exist_ok=True)
 master = pd.read_csv(os.path.join(OUT, "master_joined.csv"), encoding="utf-8", low_memory=False)
 
 # renomeia a métrica de contagem de datas

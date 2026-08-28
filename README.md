@@ -39,7 +39,8 @@ python scripts/14_regressao_q3.py    # regressão Q3
 python scripts/15_retorno_liquido.py # retorno líquido dos 3 ativos
 ```
 
-Cada script grava produtos em `output/` e imprime resumos no terminal.
+Cada script grava seus produtos na pasta `output/dados/` e imprime resumos no terminal.
+Scripts exploratórios (01, 02, 06, 08) apenas imprimem análise/relatórios no terminal.
 
 ---
 
@@ -52,8 +53,10 @@ jt2026-ricardo-escalante/
 ├── index.html             # enunciado do desafio (offline)
 ├── requirements.txt       # dependências Python
 ├── data/                  # 5 CSVs brutos (input)
-├── scripts/               # pipeline numerado (01–15)
-├── output/                # planilhas e relatórios intermediários
+├── scripts/               # pipeline numerado (01–15) — código
+├── output/
+│   ├── dados/             # produtos: planilhas geradas pela análise
+│   └── visualizacao_brutos.html  # inspeção visual da base bruta
 └── ai-log/                # conversas com a IA exportadas em texto
 ```
 
@@ -63,7 +66,7 @@ jt2026-ricardo-escalante/
 
 - **Recomendação e análise**: [`relatorio.md`](relatorio.md)
 - **Registro do processo com IA**: pasta [`ai-log/`](ai-log/)
-- **Pesquisas/planilhas**: `output/`
+- **Pesquisas/planilhas**: `output/dados/`
 - **Código**: `scripts/`
 
 ---

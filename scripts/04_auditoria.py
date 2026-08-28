@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-OUT = os.path.join(os.path.dirname(__file__), "..", "output")
+OUT = os.path.join(os.path.dirname(__file__), "..", "output", "dados")
 
 master = pd.read_csv(os.path.join(OUT, "master_joined.csv"), encoding="utf-8", low_memory=False)
 

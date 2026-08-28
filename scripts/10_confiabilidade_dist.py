@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-OUT = os.path.join(os.path.dirname(__file__), "..", "output")
+OUT = os.path.join(os.path.dirname(__file__), "..", "output", "dados")
 
 ret = pd.read_csv(os.path.join(OUT, "retorno_financeiro.csv"), encoding="utf-8", low_memory=False)
 

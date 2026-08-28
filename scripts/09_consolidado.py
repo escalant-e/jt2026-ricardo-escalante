@@ -2,7 +2,8 @@ import pandas as pd
 import unicodedata, os
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "data")
-OUT  = os.path.join(os.path.dirname(__file__), "..", "output")
+OUT  = os.path.join(os.path.dirname(__file__), "..", "output", "dados")
+os.makedirs(OUT, exist_ok=True)
 
 # ---------------------------------------------------------------
 # Normalização de nomes de bairro

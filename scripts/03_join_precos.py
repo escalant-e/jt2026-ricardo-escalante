@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "data")
-OUT  = os.path.join(os.path.dirname(__file__), "..", "output")
+OUT  = os.path.join(os.path.dirname(__file__), "..", "output", "dados")
 
 # ---- carrega ----
 det   = pd.read_csv(os.path.join(DATA, "Details_Itapema.csv"), encoding="utf-8", low_memory=False)

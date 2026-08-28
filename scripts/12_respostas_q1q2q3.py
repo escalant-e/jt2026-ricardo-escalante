@@ -1,7 +1,8 @@
 import pandas as pd
 import unicodedata, os
 
-OUT = os.path.join(os.path.dirname(__file__), "..", "output")
+OUT = os.path.join(os.path.dirname(__file__), "..", "output", "dados")
+os.makedirs(OUT, exist_ok=True)
 
 def norm_suburb(s):
     if pd.isna(s):

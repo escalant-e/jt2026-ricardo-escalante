@@ -3,7 +3,7 @@ import numpy as np
 import statsmodels.api as sm
 import os
 
-OUT = os.path.join(os.path.dirname(__file__), "..", "output")
+OUT = os.path.join(os.path.dirname(__file__), "..", "output", "dados")
 
 air = pd.read_csv(os.path.join(OUT, "preco_ok.csv"), encoding="utf-8", low_memory=False)
 
