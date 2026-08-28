@@ -16,7 +16,7 @@ Análise completa e decisão de investimento no **`relatorio.md`** (resumo execu
 
 ### Requisitos
 - Python 3.14+ (testado no Windows)
-- Dependências: `requirements.txt` (`pandas`, `numpy`, `statsmodels`)
+- Dependências: [`requirements.txt`](requirements.txt) (`pandas`, `numpy`, `statsmodels`)
 
 ### Setup
 ```bash
@@ -69,9 +69,9 @@ jt2026-ricardo-escalante/
 
 - **Recomendação e análise**: [`relatorio.md`](relatorio.md)
 - **Roteiro do vídeo + como a IA foi usada + próximos passos**: [`roteiro_video.md`](roteiro_video.md)
-- **Registro do processo com IA**: pasta [`ai-log/`](ai-log/)
-- **Pesquisas/planilhas**: `output/dados/`
-- **Código**: `scripts/`
+- **Registro do processo com IA**: pasta [`ai-log/`](ai-log/) *(a ser preenchida com as conversas exportadas)*
+- **Pesquisas/planilhas**: [`output/dados/`](output/dados/)
+- **Código**: [`scripts/`](scripts/)
 
 ---
 
