@@ -60,7 +60,7 @@ jt2026-ricardo-escalante/
 ├── output/
 │   ├── dados/             # produtos: planilhas geradas pela análise
 │   └── visualizacao_brutos.html  # inspeção visual da base bruta
-└── ai-log/                # conversas com a IA exportadas em texto
+└── ai-log/                # conversa completa + resumo do processo com IA
 ```
 
 ---
@@ -69,7 +69,7 @@ jt2026-ricardo-escalante/
 
 - **Recomendação e análise**: [`relatorio.md`](relatorio.md)
 - **Roteiro do vídeo + como a IA foi usada + próximos passos**: [`roteiro_video.md`](roteiro_video.md)
-- **Registro do processo com IA**: pasta [`ai-log/`](ai-log/) *(a ser preenchida com as conversas exportadas)*
+- **Registro do processo com IA**: pasta [`ai-log/`](ai-log/) — [`conversa-completa.md`](ai-log/conversa-completa.md) (diálogo na íntegra) + [`resumo-log.md`](ai-log/resumo-log.md) (resumo por fase)
 - **Pesquisas/planilhas**: [`output/dados/`](output/dados/)
 - **Código**: [`scripts/`](scripts/)
 
