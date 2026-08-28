@@ -1,0 +1,25 @@
+﻿n observaτ⌡es: 994
+
+===== REGRESS├O M┌LTIPLA (alvo: receita anual em R$ mil, base 55%) =====
+R▓: 0.4455
+R▓ ajustado: 0.437
+n: 994
+
+Coeficientes padronizados (beta): interpretaτπo = +1 desvio-padrπo na feature => +/- R$ mil na receita/ano
+  communication_rating           beta=   -47.57  t=  -3.30  p=0.0010 **
+  value_rating                   beta=   -32.42  t=  -3.02  p=0.0026 **
+  accuracy_rating                beta=    22.84  t=   2.22  p=0.0270 *
+  number_of_bedrooms             beta=    21.11  t=   6.06  p=0.0000 ***
+  number_of_bathrooms            beta=    18.81  t=   7.27  p=0.0000 ***
+  location_rating                beta=    16.91  t=   1.76  p=0.0785 ns
+  star_rating                    beta=    14.27  t=   0.80  p=0.4215 ns
+  number_of_guests               beta=    13.60  t=   4.60  p=0.0000 ***
+  guest_satisfaction_overall     beta=     8.84  t=   2.38  p=0.0173 *
+  number_of_beds                 beta=    -3.68  t=  -1.51  p=0.1316 ns
+  checkin_rating                 beta=     3.54  t=   0.31  p=0.7583 ns
+  cleanliness_rating             beta=     3.40  t=   0.34  p=0.7344 ns
+  number_of_reviews              beta=    -2.98  t=  -1.59  p=0.1113 ns
+  cleaning_fee                   beta=    -1.32  t=  -0.65  p=0.5143 ns
+  picture_count                  beta=     0.90  t=   0.48  p=0.6325 ns
+
+Legenda: *** p<0.001, ** p<0.01, * p<0.05, ns nπo-significante
