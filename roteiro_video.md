@@ -1,7 +1,7 @@
 # Roteiro do Vídeo e Registro do Processo com IA
 
-> Material de apoio para o **vídeo de até 3 minutos** (Google Drive) e para a pasta `ai-log/`.
-> Tópicos exigidos pelo desafio: (1) como a IA foi usada no processo, (2) o que faria com mais uma semana, (3) roteiro da apresentação.
+> Material de apoio para o **vídeo de até 3 minutos** (Google Drive) — alinhado à apresentação `output/apresentacao_seazone_itapema.pptx` (7 slides).
+> Tópicos exigidos pelo desafio: (1) recomendação e o raciocínio por trás dela, (2) como você usou a IA no processo, (3) o que você faria se tivesse mais uma semana. O roteiro também registra os momentos-chave do processo para a pasta `ai-log/`.
 
 ---
 
@@ -14,36 +14,56 @@ A IA (OpenCode + modelo DeepSeek) foi usada como **ferramenta de trabalho colabo
 - **Descoberta de inconsistências**: a IA identificou problemas — linhas duplicadas de owner, `min_nights` constante, bairro `none`, grupos com n pequeno — que foram tratados com o aval da equipe.
 - **Ponto de virada no processo (Price_AV)**: ao questionar se as datas do `Price_AV` eram de ocupação ou de disponibilidade, a IA rodou um diagnóstico (distribuição por dia da semana, preenchimento do calendário) que mostrou padrão de **disponibilidade/precificação**, e não reserva. Isso levou à decisão coletiva de **modelar receita por cenários de ocupação** em vez de assumir dias ocupados — registrado no script `06_diagnostico_av.py`.
 - **Análises estatísticas**: regressão múltipla (Q3) gerada e interpretada com apoio da IA, incluindo o tratamento de colinearidade e dos coeficientes negativos de ratings.
-- **Auditoria crítica**: a IA atuou como revisor sênior (deadline), apontando fragilidades — sensibilidade do limiar de confiabilidade, nomeclatura financeira, falta de racional econômico — que foram corrigidas no `relatorio.md`.
+- **Auditoria crítica**: a IA atuou como revisor sênior, apontando fragilidades — sensibilidade do limiar de confiabilidade, nomenclatura financeira, falta de racional econômico — que foram corrigidas no `relatorio.md`.
 - **Papel do humano**: decisões de critério (limiar de outlier R$ 3.000, taxas 40/55/70%, filtros do VivaReal, nomenclatura, tom da tese) foram **todas do analista**; a IA sugeriu e testou, o humano decidiu.
 
 ## 2 — O que faríamos se tivéssemos mais uma semana
 
-1. **Dados de ano completo** (não só jan–abr/verão) para calibrar a sazonalidade real e estimar ocupação/renda inverno — removendo a maior limitação da análise.
+1. **Dados de ano completo** (não só jan–abr/verão) para calibrar a sazonalidade real e estimar ocupação/renda de inverno — removendo a maior limitação da análise.
 2. **Custos operacionais reais de short stay** (limpeza, energia, taxa da plataforma, vacância, gestão) para transformar o "retorno líquido de encargos" em um **NOI/cap rate completo**.
-3. **Modelo preditivo de precificação e demanda** mais robusto (testes com validação cruzada, VIF, árvores) + feature engineering (proximidade da praia, densidade de oferta).
+3. **Modelo preditivo de precificação e demanda** mais robusto (validação cruzada, VIF, árvores) + feature engineering (proximidade da praia, densidade de oferta).
 4. **Análise qualitativa de liquidez imobiliária**: tempo de venda por bairro/tipo, dispersão de preços e de diária no mesmo bairro.
-5. **Comparação com ports/benchmarks** de operação (Seazone) e análise de **competição local** (nº de hosts profissionais por bairro-tipo).
-6. **Validação com dados externos** (IBGE/setores censitários, IPTU/IPTU, oferta de lançamentos) para testar a hipótese de renda da terra em Morretes.
+5. **Comparação com benchmarks de operação (Seazone)** e análise de **competição local** (nº de hosts profissionais por bairro-tipo).
+6. **Validação com dados externos** (IBGE/setores censitários, IPTU, oferta de lançamentos) para testar a hipótese de renda da terra em Morretes.
 7. **Análise de sensibilidade do limiar de confiabilidade** (5/10/15/20 listings) para apresentar a robustez da decisão 2Q.
 
-## 3 — Roteiro do vídeo (até 3 minutos)
+## 3 — Roteiro do vídeo (até 3 minutos, alinhado aos 7 slides)
 
-**Abertura (0:00–0:15)**
-> "Recomendação de investimento imobiliário em Itapema para a Seazone, com base em 4.441 anúncios de Airbnb e 8.329 de venda."
+> Tempos sugeridos dentro do limite de 3 min. O deck tem 7 slides e cada bloco deste roteiro corresponde a ele.
 
-**A pergunta e o método (0:15–0:50)**
-> "Qual perfil, localização e características explicam a melhor receita? Usei dados de diária (`Price_AV`), perfil dos imóveis (Details), localização (Mesh) e preços de venda (VivaReal), com receita projetada em cenários de ocupação. A tese interna falava em compactos 1Q no Centro — eu testei essa tese nos dados."
+### Slide 1 — Abertura (0:00–0:12)
+> "Recomendação de investimento imobiliário em Itapema para a Seazone: apostar em apartamentos 2Q, começando por Morretes. Retorno líquido de encargos em torno de 10,8% ao ano — no cenário base de 55% de ocupação — com ticket acessível e alta confiabilidade estatística."
 
-**Números-chave (0:50–1:35)**
-> "Dois fatos: (1) apartamentos de 3Q/4Q dominam o faturamento bruto, mas (2) em retorno sobre capital, unidades menores vencem — o 2Q dá 10,3% de retorno vs 5,7% de 4Q+. Em localização, Meia Praia lidera a receita. Os drivers de receita são tamanho/capacidade, não ratings."
+### Slide 2 — Raciocínio: o perfil (0:12–0:50)
+> "Por que 2Q? Comparei três óticas. No faturamento bruto, 3Q e 4Q dominam, pois acomodam mais gente. Mas por metro quadrado, o imóvel de 1Q é o mais produtivo: R$ 1.807 por m². E sob o critério decisivo — retorno sobre o capital investido — o 2Q vence com 10,3%, enquanto o 4Q+ despenca para 5,7%. Ou seja, em investimento, eficiência de capital manda — e o 2Q é o equilíbrio entre retorno, liquidez e reprodutibilidade estatística."
 
-**A decisão (1:35–2:15)**
-> "Compraria parcela de 2Q em Morretes (retorno líquido de encargos 10,8%), depois Centro (9,2%) e Meia Praia (7,9%) — priorizando reprodutibilidade estatística e ticket acessível. Sobre os compactos: tese parcialmente validada, mas reposicionada para 2Q e Morretes."
+### Slide 3 — Raciocínio: localização e drivers (0:50–1:25)
+> "Onde? Meia Praia lidera a receita — R$ 118 mil por ano — e o Centro é a alternativa de maior volume. O que explica receita? São os atributos estruturais: número de quartos, banheiros e hóspedes — não os ratings. Sobre a tese interna dos compactos 1Q no Centro: os dados sustentam a intuição de que unidades pequenas são eficientes em capital, mas reposicionam a aposta — o ótimo é o 2Q e o melhor retorno está em Morretes."
 
-**Fechamento (2:15–3:00)**
-> "Como usei a IA: a ferramenta explorou, gerou scripts, identificou que o Price_AV é disponibilidade (não ocupação) e auditou a análise; eu decidi cada critério. Com mais uma semana eu acrescentaria ano completo, custos operacionais e validação externa da tese de Morretes."
+### Slide 4 — A recomendação (1:25–2:00)
+> "Se a Seazone investisse hoje: apartamento 2Q em Morretes (retorno líquido de encargos 10,8% e preço mediano de R$ 790 mil, com volume alto de dados — alta confiabilidade), depois Centro (9,2%) e Meia Praia (7,9%). Priorizei reprodutibilidade estatística e ticket acessível, e não simplesmente a maior taxa nominal."
+
+### Slide 5 — Como a IA foi usada (2:00–2:30)
+> "Em todo o processo, a IA foi ferramenta colaborativa, e o humano decidiu cada critério. Um momento decisivo: detectamos que o Price_AV mede disponibilidade, não ocupação — então modelamos a receita por cenários de ocupação, em vez de supor dias ocupados. A IA também apontou inconsistências e auditou o relatório como revisor sênior. Tudo registrado na pasta ai-log e nos scripts."
+
+### Slide 6 — Com mais uma semana (2:30–2:50)
+> "Com mais uma semana eu fecharia três frentes: dados de ano completo, para calibrar sazonalidade e ocupação de inverno; custos operacionais reais do short stay, para chegar a um NOI/cap rate completo; e validação externa da tese de Morretes, com dados censitários."
+
+### Slide 7 — Fechamento (2:50–3:00)
+> "Então, a resposta é clara: apartamentos 2Q, começando por Morretes. Obrigado. Os detalhes completos estão no relatório do repositório."
 
 ---
+
+## Resumo dos slides (deck `output/apresentacao_seazone_itapema.pptx`)
+
+| Slide | Tema | Tempo |
+|---|---|---|
+| 1 | Capa — recomendação sintética | 0:00–0:12 |
+| 2 | Raciocínio 1 — perfil em 3 óticas | 0:12–0:50 |
+| 3 | Raciocínio 2 — localização + drivers + tese | 0:50–1:25 |
+| 4 | A recomendação (3 ativos + como calculamos) | 1:25–2:00 |
+| 5 | Como a IA foi usada | 2:00–2:30 |
+| 6 | O que faria com mais uma semana | 2:30–2:50 |
+| 7 | Conclusão | 2:50–3:00 |
 
 *Documento de apoio — análise completa em `relatorio.md`.*
