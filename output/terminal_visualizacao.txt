@@ -1,0 +1,222 @@
+﻿
+===== Details_Itapema.csv =====
+Linhas: 4,441  |  Colunas: 35
+Tipos:
+airbnb_listing_id               int64
+url                               str
+ad_name                           str
+ad_description                    str
+space                             str
+house_rules                       str
+amenities                         str
+safety_features                   str
+number_of_bathrooms           float64
+number_of_bedrooms              int64
+number_of_beds                  int64
+latitude                      float64
+longitude                     float64
+check_in                          str
+check_out                         str
+number_of_guests                int64
+number_of_reviews               int64
+cleaning_fee                  float64
+owner_id                        int64
+aquisition_date                   str
+star_rating                   float64
+picture_count                   int64
+min_nights                      int64
+guest_satisfaction_overall      int64
+listing_type                      str
+can_instant_book               object
+is_professional                object
+accuracy_rating               float64
+checkin_rating                float64
+cleanliness_rating            float64
+communication_rating          float64
+location_rating               float64
+value_rating                  float64
+is_new_listing                 object
+is_guest_favorite                bool
+Nulos por coluna:
+airbnb_listing_id                0
+url                              0
+ad_name                          0
+ad_description                  54
+space                         2527
+house_rules                      0
+amenities                        0
+safety_features                  0
+number_of_bathrooms              0
+number_of_bedrooms               0
+number_of_beds                   0
+latitude                         0
+longitude                        0
+check_in                       446
+check_out                      842
+number_of_guests                 0
+number_of_reviews                0
+cleaning_fee                     0
+owner_id                         0
+aquisition_date                  0
+star_rating                      0
+picture_count                    0
+min_nights                       0
+guest_satisfaction_overall       0
+listing_type                     0
+can_instant_book               355
+is_professional                355
+accuracy_rating                  0
+checkin_rating                   0
+cleanliness_rating               0
+communication_rating             0
+location_rating                  0
+value_rating                     0
+is_new_listing                 874
+is_guest_favorite                0
+Primeiras 5 linhas:
+     airbnb_listing_id                                                  url                                             ad_name                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ad_description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               space                                                                                                                                                                                house_rules                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         amenities                                                                      safety_features  number_of_bathrooms  number_of_bedrooms  number_of_beds  latitude  longitude                 check_in                 check_out  number_of_guests  number_of_reviews  cleaning_fee   owner_id          aquisition_date  star_rating  picture_count  min_nights  guest_satisfaction_overall listing_type can_instant_book is_professional  accuracy_rating  checkin_rating  cleanliness_rating  communication_rating  location_rating  value_rating is_new_listing  is_guest_favorite
+0  1018938592594574382  https://www.airbnb.com.br/rooms/1018938592594574382                       Apartamento em centro itapema                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Aconchegante, bem iluminado, poucos metros do mar,  lugar tranquilo e bem-localizado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 NaN                                          ["Mßximo de 4 h≤spedes", "Nπo Θ permitido animais de estimaτπo", "Horßrio de silΩncio", "Nπo sπo permitidas festas ou eventos", "Proibido fumar"]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ["Chuveiro externo", "Mßquina de lavar Gratuito", "Roupa de cama", "Varal para secar roupas", "Local para guardar as roupas: guarda-roupa", "HDTV", "Ar-condicionado split", "Ventilador de teto", "Wi-Fi", "Refrigerador", "Microondas", "Louτas e talheres", "Fogπo a gßs Other", "Forno Normal", "Liquidificador", "Churrasqueira", "Estacionamento incluφdo", "O anfitriπo recebe vocΩ"]  ["Alarme de mon≤xido de carbono nπo informado", "Detector de fumaτa nπo informado"]                  1.0                   1               1       0.0        0.0  Check-in: 14:00 - 20:00  Checkout antes das 09:00                 4                  0         200.0  545255849  2025-01-13 02:58:38.000         0.00              0           0                           0  apartamento            False           False             0.00             0.0                0.00                  0.00             0.00          0.00          False              False
+1   991407580891691701   https://www.airbnb.com.br/rooms/991407580891691701     Apto em otima localizaτπo em Meia Praia EIO6031                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Este espaτoso apto Θ perfeito para famφlia ou grupos de amigos que desejam desfrutar de uma estadia confortßvel em uma ≤tima regiπo na Meia Praia.<br /><br />Com localizaτπo privilegiada, vocΩ vai ficar a poucos metros da praia e tambΘm de restaurantes, mercados e bares.<br /><br />A sala de estar Θ ampla, varanda com churrasqueira, cozinha completa e bem equipada e os trΩs quartos sπo confortßveis e perfeitos para repor o sono ap≤s a agitaτπo do dia. Venha relaxar e curtir momentos inesquecφveis pertinho da praia.<br /><br />  <br />Para o conforto de nossos h≤spedes, o im≤vel possui:<br /><br />- Ambientes integrados, espaτosos e bem iluminados;<br />- 1 suφte com cama casal, ar-condicionado e armßrio;<br />- 1 demi-suφte com cama de casal, c⌠moda; ( nesse quarto tem uma porta para acesso ao banheiro social )<br />- 1 quarto com cama de casal, armßrio, c⌠moda e ar-condicionado;<br />- Sala de estar com sofß, poltrona, rack, TV, mesa de jantar com 6 lugares;<br /><br />- Varanda com churrasqueira e mesa;<br />- Cozinha completa com geladeira, fogπo, micro-ondas, sanduicheira, liquidificador, chaleira elΘtrica, e demais utensφlios;<br />- 1 banheiro social;<br />- ┴rea de serviτo com mßquina de lavar e varal;<br />- Wi-fi 30mb disponφvel;<br />- 1 vaga de garagem coberta. (comporta caminhonete, tamanho 3x2)<br /><br /><br /><br />OBS: Informamos que hß uma obra em andamento no prΘdio, sem previsπo de tΘrmino.<br /><br />* Sπo disponibilizadas uma toalha de banho por h≤spede e uma toalha de rosto por banheiro, alΘm de lenτ≤is para a quantidade de h≤spedes indicada, trocas de enxoval podem ser solicitadas ao valor de meia taxa de limpeza.<br /><br />* A limpeza inclusa no valor Θ realizada somente no checkout. Se o h≤spede desejar uma limpeza extra durante a estadia, serß cobrada uma nova taxa de limpeza.<br /><br />IMPORTANTE: Para check-in ap≤s as 20h hß cobranτa adicional de taxa de conveniΩncia, consulte valores e formas de pagamento com o anfitriπo :)<br /><br />Venha, relaxe, divirta-se e nπo se preocupe com mais nada :)<br /><br />  ["Mßximo de 6 h≤spedes", "Nπo Θ permitido animais de estimaτπo", "Horßrio de silΩncio", "Nπo sπo permitidas festas ou eventos", "Nπo Θ permitido fotografia comercial", "Proibido fumar"]                                                                                                                                                                                                                                                                                                             ["Secador de cabelo", "┴gua quente", "Mßquina de Lavar", "Bßsico", "Cabides", "Roupa de cama", "Ferro de passar", "Varal para secar roupas", "Local para guardar as roupas: guarda-roupa", "TV", "Ar-condicionado", "Wi-Fi", "Cozinha", "Refrigerador", "Microondas", "Louτas e talheres", "Fogπo", "Forno", "Cafeteira: cafeteira com coador", "Taτas de vinho", "Torradeira", "Assadeira", "Liquidificador", "Mesa de jantar", "Acesso α praia compartilhado", "Pßtio ou varanda (Privativa)", "Churrasqueira", "Estacionamento incluφdo", "Estacionamento gratuito na rua", "Elevador", "O anfitriπo recebe vocΩ"]                  ["Nπo hß alarme de mon≤xido de carbono", "Nπo hß alarme de fumaτa"]                  2.0                   3               3       0.0        0.0  Check-in: 15:00 - 20:00  Checkout antes das 11:00                 6                 11         439.0  227777128  2025-01-13 02:58:40.000         4.55             29           0                           4  apartamento             True            True             4.91             5.0                4.64                  4.82             4.91          4.45          False              False
+2             41074064             https://www.airbnb.com.br/rooms/41074064              Paraφso do lazer, descanso e seguranτa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Linda e aconchegante casa em condomφnio fechado na praia mais charmosa e familiar de Santa Catarina. Local totalmente seguro, com ßrea verde, estrutura, conforto e diversπo para toda a famφlia. Em 10 minutos caminhando vocΩ esta no mar. Ar condicionado em todos os ambientes da casa. Perfeito para as fΘrias mais incrφveis da sua vida. Encante-se com as belezas de Santa Catarina!<br /><br />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <br />O h≤spede pode usar todas as ßreas do condomφnio fechado: cancha de v⌠lei, futebol, churrasqueira, bocha, parque, deve apenas respeitar as regras de convivΩncia do condomφnio                                                                       ["Mßximo de 7 h≤spedes", "Permitido animais de estimaτπo", "Nπo sπo permitidas festas ou eventos", "Proibido fumar"]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ["Secador de cabelo", "┴gua quente", "Mßquina de Lavar", "Bßsico", "Cabides", "Ferro de passar", "TV", "Ar-condicionado", "Cozinha", "Refrigerador", "Microondas", "Itens bßsicos de cozinha", "Louτas e talheres", "Forno", "Entrada privada", "Estacionamento incluφdo", "Permitido animais"]  ["Alarme de mon≤xido de carbono nπo informado", "Detector de fumaτa nπo informado"]                  2.0                   3               4       0.0        0.0      Check-in ap≤s 14:00  Checkout antes das 12:00                 7                  6         180.0  321172190  2025-01-13 02:58:44.000         5.00             23           0                           5         casa             True           False             4.83             4.5                5.00                  5.00             4.83          5.00          False              False
+3             54177663             https://www.airbnb.com.br/rooms/54177663                           Apartamento em meia praia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Na data da virada alugamos a partir de 7 dia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 NaN                                                                                                            ["Mßximo de 6 h≤spedes", "Permitido animais de estimaτπo", "╔ permitido fumar"]  ["Secador de cabelo", "┴gua quente", "Mßquina de Lavar", "Bßsico", "Roupa de cama", "Cobertores e travesseiros extras", "Ferro de passar", "Varal para secar roupas", "Local para guardar as roupas", "Conexπo α Ethernet", "HDTV com TV a cabo", "Ar-condicionado split", "Ventilador de teto", "Extintor de incΩndio", "Wi-Fi", "Espaτo de trabalho exclusivo", "Cozinha", "Refrigerador", "Microondas", "Itens bßsicos de cozinha", "Louτas e talheres", "Freezer", "Fogπo", "Forno", "Chaleira de ßgua quente", "Torradeira", "Liquidificador", "Lixeira compactadora", "Utensφlios para churrasco", "Mesa de jantar", "Acesso α praia (α beira-mar)", "Lavanderia nas proximidades", "Pßtio ou varanda (Privativa)", "M≤veis externos", "┴rea de jantar externa", "Churrasqueira", "Estacionamento incluφdo", "Estacionamento gratuito na rua", "Permitido animais", "Permitido fumar", "Self check-in", "Cofre de chaves"]  ["Alarme de mon≤xido de carbono nπo informado", "Detector de fumaτa nπo informado"]                  2.0                   3               3       0.0        0.0                      NaN                       NaN                 6                  0         300.0  389650375  2025-01-13 02:58:45.000         0.00              0           0                           0  apartamento             True           False             0.00             0.0                0.00                  0.00             0.00          0.00          False              False
+4             51975323             https://www.airbnb.com.br/rooms/51975323  3 Suφtes, Belφssimo, 2 gar-Meia Praia - Itapema/SC  3 SU═TES, BEL═SSIMO, MEIA PRAIA - TEMPORADA VER├O<br />EXCELENTE LOCALIZA╟├O.<br />PR╙XIMO AO SUPERMERCADO OFERT├O.<br />PR╙XIMO CHURRASCARIA COSTELA╟O DO TONHO.<br />PERTINHO DA FECCAT FEIRA DE CAL╟ADOS.<br /><br />3 SU═TES.<br />SU═TES COM AR CONDICIONADO.<br />LIVING EM DOIS AMBIENTES.<br />LIVING INTEGRADO COM CHURRASQUEIRA.<br />COZINHA, LAVABO, ┴REA DE SERVI╟O.<br />2 VAGAS DE GARAGEM.<br />SUA FAM═LIA MERECE O MELHOR.<br /><br /><b>Outras observaτ⌡es</b><br />ò N≤s querφamos ressaltar que, infelizmente, nπo fornecemos roupas de cama e banho para nossos h≤spedes. Sugerimos que vocΩ traga seus pr≤prios para maior conforto durante sua estadia. Se preferir, podemos indicar uma empresa que trabalha com aluguel desses itens durante sua hospedagem.<br /><br />ò Nπo temos artigos de praia disponφveis para uso durante sua visita. Entπo, se vocΩ planeja passar um tempo na praia, traga seus pr≤prios equipamentos.<br /><br />ò Nossa eletricidade Θ fornecida em uma voltagem de 220W, entπo, se vocΩ planeja trazer aparelhos eletr⌠nicos, verifique se eles sπo compatφveis antes de usß-los.<br /><br />Estou completamente disponφvel para esclarecer todas as suas d·vidas, tanto antes quanto durante a sua estadia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 NaN                                                                                                                                                                   ["Mßximo de 8 h≤spedes"]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ["Mßquina de Lavar", "Ferro de passar", "TV", "Ar-condicionado", "Extintor de incΩndio", "Wi-Fi", "Espaτo de trabalho exclusivo", "Cozinha", "Itens bßsicos de cozinha", "Entrada privada", "Estacionamento incluφdo", "Elevador"]  ["Alarme de mon≤xido de carbono nπo informado", "Detector de fumaτa nπo informado"]                  3.0                   3               5       0.0        0.0  Check-in: 14:00 - 18:00  Checkout antes das 09:00                 8                  2         400.0  298545921  2025-01-13 02:58:33.000         4.50             30           0                           4  apartamento            False           False             4.50             3.5                2.50                  5.00             4.00          5.00          False              False
+
+===== Hosts_ids_Itapema.csv =====
+Linhas: 4,440  |  Colunas: 11
+Tipos:
+owner_id                    int64
+owner                         str
+is_superhost                 bool
+number_of_reviews_host    float64
+is_verified                  bool
+star_rating_host          float64
+years_host                  int64
+months_host                 int64
+response_rate_shown       float64
+response_time_shown       float64
+host_snapshot_date            str
+Nulos por coluna:
+owner_id                     0
+owner                        0
+is_superhost                 0
+number_of_reviews_host       0
+is_verified                  0
+star_rating_host             0
+years_host                   0
+months_host                  0
+response_rate_shown       4440
+response_time_shown       4440
+host_snapshot_date           0
+Primeiras 5 linhas:
+    owner_id           owner  is_superhost  number_of_reviews_host  is_verified  star_rating_host  years_host  months_host  response_rate_shown  response_time_shown       host_snapshot_date
+0  167418369       Cristiane         False                     1.0         True              5.00           0           10                  NaN                  NaN  2025-01-13 02:25:40.000
+1  433162432         Adriana         False                    28.0         True              4.89           3            1                  NaN                  NaN  2025-01-13 02:25:41.000
+2  156933100           Carla         False                     0.0         True              0.00           7            1                  NaN                  NaN  2025-01-13 02:58:06.000
+3  175320187  Vitalino Ortiz          True                    38.0         True              4.87           1            4                  NaN                  NaN  2025-01-13 02:58:25.000
+4  108479878          Jarbas         False                   233.0         True              4.91           8            0                  NaN                  NaN  2025-01-13 02:58:26.000
+
+===== Mesh_Ids_Data_Itapema.csv =====
+Linhas: 4,441  |  Colunas: 8
+Tipos:
+airbnb_listing_id      int64
+latitude             float64
+longitude            float64
+suburb                   str
+country                  str
+state                    str
+city                     str
+aquisition_date          str
+Nulos por coluna:
+airbnb_listing_id    0
+latitude             0
+longitude            0
+suburb               0
+country              0
+state                0
+city                 0
+aquisition_date      0
+Primeiras 5 linhas:
+     airbnb_listing_id   latitude  longitude      suburb country           state     city          aquisition_date
+0  1207992119242235910 -27.093060 -48.613260      Centro  Brasil  Santa Catarina  Itapema  2025-11-03 19:00:38.406
+1   794092172388379022 -27.094049 -48.612091      Centro  Brasil  Santa Catarina  Itapema  2023-06-26 19:14:29.000
+2   768031350632379804 -27.136000 -48.598999  Meia Praia  Brasil  Santa Catarina  Itapema  2022-12-06 12:43:34.000
+3   753076868199108828 -27.124130 -48.608150  Meia Praia  Brasil  Santa Catarina  Itapema  2024-10-07 19:41:57.002
+4   540415335028124722 -27.132000 -48.598999  Meia Praia  Brasil  Santa Catarina  Itapema  2023-01-19 12:18:27.000
+
+===== Price_AV_Itapema.csv =====
+Linhas: 118,839  |  Colunas: 4
+Tipos:
+airbnb_listing_id      int64
+date                     str
+price                float64
+aquisition_date          str
+Nulos por coluna:
+airbnb_listing_id    0
+date                 0
+price                0
+aquisition_date      0
+Primeiras 5 linhas:
+     airbnb_listing_id        date  price          aquisition_date
+0  1002785860497857801  2025-01-23  800.0  2025-01-07 13:25:06.000
+1  1002785860497857801  2025-02-15  700.0  2025-01-07 13:25:06.000
+2  1002785860497857801  2025-02-20  700.0  2025-01-07 13:25:06.000
+3  1002785860497857801  2025-02-21  700.0  2025-01-07 13:25:06.000
+4  1002785860497857801  2025-02-28  700.0  2025-01-07 13:25:06.000
+
+===== VivaReal_Itapema.csv =====
+Linhas: 8,329  |  Colunas: 22
+Tipos:
+listing_id             int64
+link_url                 str
+listing_title            str
+business_types           str
+listing_type             str
+property_type            str
+sale_price           float64
+rental_price         float64
+rental_period            str
+yearly_iptu          float64
+monthly_condo_fee    float64
+amenities                str
+usable_area            int64
+bathrooms              int64
+bedrooms               int64
+parking_spaces         int64
+state                    str
+city                     str
+suburb                   str
+advertiser_name          str
+portal                   str
+aquisition_date          str
+Nulos por coluna:
+listing_id              0
+link_url                0
+listing_title           0
+business_types          0
+listing_type            0
+property_type           0
+sale_price              0
+rental_price         8327
+rental_period        8327
+yearly_iptu          2714
+monthly_condo_fee    2490
+amenities               0
+usable_area             0
+bathrooms               0
+bedrooms                0
+parking_spaces          0
+state                   2
+city                    0
+suburb                 98
+advertiser_name         0
+portal                  0
+aquisition_date         0
+Primeiras 5 linhas:
+   listing_id                                                                                                                                  link_url                                                listing_title business_types listing_type property_type  sale_price  rental_price rental_period  yearly_iptu  monthly_condo_fee                                                                                                                                                                                                                                                                                                                                                             amenities  usable_area  bathrooms  bedrooms  parking_spaces state     city          suburb                      advertiser_name    portal          aquisition_date
+0  2687011752      https://www.vivareal.com.br/imovel/apartamento-3-quartos-meia-praia-bairros-itapema-com-garagem-131m2-venda-RS1598122-id-2687011752/                    ITAPEMA - Apartamento Padrπo - Meia Praia          Venda  apartamento          UNIT   1598122.0           NaN           NaN          NaN                NaN                                                                                                                                                                                                                                                                                                                      ["POOL", "ELEVATOR", "PLAYGROUND", "PARTY_HALL"]          131          4         3               2    SC  Itapema      Meia Praia                     Leonardo Batista  GRUPOZAP  2025-01-11 00:00:00.000
+1  2697432835  https://www.vivareal.com.br/imovel/apartamento-3-quartos-castelo-branco-bairros-itapema-com-garagem-118m2-venda-RS1450000-id-2697432835/  Apartamento com 118 m▓ 3 suφtes em Itapema - SC - REF. 9076          Venda  apartamento          UNIT   1450000.0           NaN           NaN          NaN                NaN                                                                                                                                                                                                                                                                                                                                                                    []          118          4         3               2    SC  Itapema      Meia Praia                     JMARINHO IM╙VEIS  GRUPOZAP  2025-01-11 00:00:00.000
+2  2612161501      https://www.vivareal.com.br/imovel/apartamento-3-quartos-meia-praia-bairros-itapema-com-garagem-125m2-venda-RS1500000-id-2612161501/               Apartamento 03 Suφtes e 03 Vagas na Meia Praia          Venda  apartamento          UNIT   1500000.0           NaN           NaN          0.0                NaN                                                                                                                                                                                                                                                                                                                                              ["FURNISHED", "KITCHEN"]          125          4         3               3    SC  Itapema  Castelo Branco  CONFIARI INVESTIMENTOS IMOBILI┴RIOS  GRUPOZAP  2025-01-11 00:00:00.000
+3  2598271159          https://www.vivareal.com.br/imovel/apartamento-2-quartos-morretes-bairros-itapema-com-garagem-70m2-venda-RS870000-id-2598271159/               Apartamento α venda de 2 quartos em Itapema SC          Venda  apartamento          UNIT    870000.0           NaN           NaN        800.0              350.0  ["POOL", "BARBECUE_GRILL", "ELEVATOR", "BALCONY", "GYM", "PETS_ALLOWED", "GOURMET_SPACE", "PLAYGROUND", "GOURMET_BALCONY", "BARBECUE_BALCONY", "CHILDRENS_POOL", "PARTY_HALL", "NEAR_ACCESS_ROADS", "RECREATION_AREA", "SOUNDPROOFING", "LARGE_WINDOW", "TOYS_PLACE", "SOLARIUM", "DISABLED_ACCESS", "GAMES_ROOM", "ADULT_POOL", "ELECTRONIC_GATE", "ENTRANCE_HALL"]           70          3         2               1    SC  Itapema        Morretes                           PB IM╙VEIS  GRUPOZAP  2025-01-11 00:00:00.000
+4  2691331590      https://www.vivareal.com.br/imovel/apartamento-3-quartos-meia-praia-bairros-itapema-com-garagem-130m2-venda-RS2150000-id-2691331590/    Apartamento 3 Suφtes, 3 Vagas - Meia Praia - Itapema - SC          Venda  apartamento          UNIT   2150000.0           NaN           NaN          NaN                NaN                                                                ["POOL", "FURNISHED", "BARBECUE_GRILL", "ELEVATOR", "GATED_COMMUNITY", "GYM", "PETS_ALLOWED", "GOURMET_SPACE", "AIR_CONDITIONING", "PLAYGROUND", "GOURMET_BALCONY", "PARTY_HALL", "BICYCLES_PLACE", "BUILTIN_WARDROBE", "AMERICAN_KITCHEN", "GAMES_ROOM", "DISABLED_ACCESS", "SPA", "ELECTRONIC_GATE"]          130          4         3               3    SC  Itapema       Andorinha                        Adriano Ramos  GRUPOZAP  2025-01-11 00:00:00.000
+
+[OK] HTML salvo em C:\Users\Ricardo\OneDrive\Desktop\hackathon\jt2026-ricardo-escalante\scripts\..\output\visualizacao_brutos.html

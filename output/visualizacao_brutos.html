@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="pt"><head><meta charset="utf-8">
+<title>Inspecao das 5 bases - Hackathon Itapema</title>
+<style>td,th{border:1px solid #ccc;padding:5px;font-size:12px}
+table{border-collapse:collapse;margin-bottom:10px}
+body{font-family:sans-serif;padding:20px} h2{color:#2c3e50}</style>
+</head><body>
+<h1>Inspecao dos dados brutos - 5 arquivos</h1>
+<h2>Details_Itapema.csv <small>(4,441 linhas | 35 colunas)</small></h2><p><b>Amostra (5 primeiras linhas):</b></p><table class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th></th>
+      <th>airbnb_listing_id</th>
+      <th>url</th>
+      <th>ad_name</th>
+      <th>ad_description</th>
+      <th>space</th>
+      <th>house_rules</th>
+      <th>amenities</th>
+      <th>safety_features</th>
+      <th>number_of_bathrooms</th>
+      <th>number_of_bedrooms</th>
+      <th>number_of_beds</th>
+      <th>latitude</th>
+      <th>longitude</th>
+      <th>check_in</th>
+      <th>check_out</th>
+      <th>number_of_guests</th>
+      <th>number_of_reviews</th>
+      <th>cleaning_fee</th>
+      <th>owner_id</th>
+      <th>aquisition_date</th>
+      <th>star_rating</th>
+      <th>picture_count</th>
+      <th>min_nights</th>
+      <th>guest_satisfaction_overall</th>
+      <th>listing_type</th>
+      <th>can_instant_book</th>
+      <th>is_professional</th>
+      <th>accuracy_rating</th>
+      <th>checkin_rating</th>
+      <th>cleanliness_rating</th>
+      <th>communication_rating</th>
+      <th>location_rating</th>
+      <th>value_rating</th>
+      <th>is_new_listing</th>
+      <th>is_guest_favorite</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1018938592594574382</td>
+      <td>https://www.airbnb.com.br/rooms/1018938592594574382</td>
+      <td>Apartamento em centro itapema</td>
+      <td>Aconchegante, bem iluminado, poucos metros do mar,&nbsp;&nbsp;lugar tranquilo e bem-localizado</td>
+      <td>NaN</td>
+      <td>["Máximo de 4 hóspedes", "Não é permitido animais de estimação", "Horário de silêncio", "Não são permitidas festas ou eventos", "Proibido fumar"]</td>
+      <td>["Chuveiro externo", "Máquina de lavar Gratuito", "Roupa de cama", "Varal para secar roupas", "Local para guardar as roupas: guarda-roupa", "HDTV", "Ar-condicionado split", "Ventilador de teto", "Wi-Fi", "Refrigerador", "Microondas", "Louças e talheres", "Fogão a gás Other", "Forno Normal", "Liquidificador", "Churrasqueira", "Estacionamento incluído", "O anfitrião recebe você"]</td>
+      <td>["Alarme de monóxido de carbono não informado", "Detector de fumaça não informado"]</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>Check-in: 14:00 - 20:00</td>
+      <td>Checkout antes das 09:00</td>
+      <td>4</td>
+      <td>0</td>
+      <td>200.0</td>
+      <td>545255849</td>
+      <td>2025-01-13 02:58:38.000</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>apartamento</td>
+      <td>False</td>
+      <td>False</td>
+      <td>0.00</td>
+      <td>0.0</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>991407580891691701</td>
+      <td>https://www.airbnb.com.br/rooms/991407580891691701</td>
+      <td>Apto em otima localização em Meia Praia EIO6031</td>
+      <td>Este espaçoso apto é perfeito para família ou grupos de amigos que desejam desfrutar de uma estadia confortável em uma ótima região na Meia Praia.&lt;br /&gt;&lt;br /&gt;Com localização privilegiada, você vai ficar a poucos metros da praia e também de restaurantes, mercados e bares.&lt;br /&gt;&lt;br /&gt;A sala de estar é ampla, varanda com churrasqueira, cozinha completa e bem equipada e os três quartos são confortáveis e perfeitos para repor o sono após a agitação do dia. Venha relaxar e curtir momentos inesquecíveis pertinho da praia.&lt;br /&gt;&lt;br /&gt;</td>
+      <td>&lt;br /&gt;Para o conforto de nossos hóspedes, o imóvel possui:&lt;br /&gt;&lt;br /&gt;- Ambientes integrados, espaçosos e bem iluminados;&lt;br /&gt;- 1 suíte com cama casal, ar-condicionado e armário;&lt;br /&gt;- 1 demi-suíte com cama de casal, cômoda; ( nesse quarto tem uma porta para acesso ao banheiro social )&lt;br /&gt;- 1 quarto com cama de casal, armário, cômoda e ar-condicionado;&lt;br /&gt;- Sala de estar com sofá, poltrona, rack, TV, mesa de jantar com 6 lugares;&lt;br /&gt;&lt;br /&gt;- Varanda com churrasqueira e mesa;&lt;br /&gt;- Cozinha completa com geladeira, fogão, micro-ondas, sanduicheira, liquidificador, chaleira elétrica, e demais utensílios;&lt;br /&gt;- 1 banheiro social;&lt;br /&gt;- Área de serviço com máquina de lavar e varal;&lt;br /&gt;- Wi-fi 30mb disponível;&lt;br /&gt;- 1 vaga de garagem coberta. (comporta caminhonete, tamanho 3x2)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;OBS: Informamos que há uma obra em andamento no prédio, sem previsão de término.&lt;br /&gt;&lt;br /&gt;* São disponibilizadas uma toalha de banho por hóspede e uma toalha de rosto por banheiro, além de lençóis para a quantidade de hóspedes indicada, trocas de enxoval podem ser solicitadas ao valor de meia taxa de limpeza.&lt;br /&gt;&lt;br /&gt;* A limpeza inclusa no valor é realizada somente no checkout. Se o hóspede desejar uma limpeza extra durante a estadia, será cobrada uma nova taxa de limpeza.&lt;br /&gt;&lt;br /&gt;IMPORTANTE: Para check-in após as 20h há cobrança adicional de taxa de conveniência, consulte valores e formas de pagamento com o anfitrião :)&lt;br /&gt;&lt;br /&gt;Venha, relaxe, divirta-se e não se preocupe com mais nada :)&lt;br /&gt;&lt;br /&gt;</td>
+      <td>["Máximo de 6 hóspedes", "Não é permitido animais de estimação", "Horário de silêncio", "Não são permitidas festas ou eventos", "Não é permitido fotografia comercial", "Proibido fumar"]</td>
+      <td>["Secador de cabelo", "Água quente", "Máquina de Lavar", "Básico", "Cabides", "Roupa de cama", "Ferro de passar", "Varal para secar roupas", "Local para guardar as roupas: guarda-roupa", "TV", "Ar-condicionado", "Wi-Fi", "Cozinha", "Refrigerador", "Microondas", "Louças e talheres", "Fogão", "Forno", "Cafeteira: cafeteira com coador", "Taças de vinho", "Torradeira", "Assadeira", "Liquidificador", "Mesa de jantar", "Acesso à praia compartilhado", "Pátio ou varanda (Privativa)", "Churrasqueira", "Estacionamento incluído", "Estacionamento gratuito na rua", "Elevador", "O anfitrião recebe você"]</td>
+      <td>["Não há alarme de monóxido de carbono", "Não há alarme de fumaça"]</td>
+      <td>2.0</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>Check-in: 15:00 - 20:00</td>
+      <td>Checkout antes das 11:00</td>
+      <td>6</td>
+      <td>11</td>
+      <td>439.0</td>
+      <td>227777128</td>
+      <td>2025-01-13 02:58:40.000</td>
+      <td>4.55</td>
+      <td>29</td>
+      <td>0</td>
+      <td>4</td>
+      <td>apartamento</td>
+      <td>True</td>
+      <td>True</td>
+      <td>4.91</td>
+      <td>5.0</td>
+      <td>4.64</td>
+      <td>4.82</td>
+      <td>4.91</td>
+      <td>4.45</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>41074064</td>
+      <td>https://www.airbnb.com.br/rooms/41074064</td>
+      <td>Paraíso do lazer, descanso e segurança</td>
+      <td>Linda e aconchegante casa em condomínio fechado na praia mais charmosa e familiar de Santa Catarina. Local totalmente seguro, com área verde, estrutura, conforto e diversão para toda a família. Em 10 minutos caminhando você esta no mar. Ar condicionado em todos os ambientes da casa. Perfeito para as férias mais incríveis da sua vida. Encante-se com as belezas de Santa Catarina!&lt;br /&gt;&lt;br /&gt;</td>
+      <td>&lt;br /&gt;O hóspede pode usar todas as áreas do condomínio fechado: cancha de vôlei, futebol, churrasqueira, bocha, parque, deve apenas respeitar as regras de convivência do condomínio</td>
+      <td>["Máximo de 7 hóspedes", "Permitido animais de estimação", "Não são permitidas festas ou eventos", "Proibido fumar"]</td>
+      <td>["Secador de cabelo", "Água quente", "Máquina de Lavar", "Básico", "Cabides", "Ferro de passar", "TV", "Ar-condicionado", "Cozinha", "Refrigerador", "Microondas", "Itens básicos de cozinha", "Louças e talheres", "Forno", "Entrada privada", "Estacionamento incluído", "Permitido animais"]</td>
+      <td>["Alarme de monóxido de carbono não informado", "Detector de fumaça não informado"]</td>
+      <td>2.0</td>
+      <td>3</td>
+      <td>4</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>Check-in após 14:00</td>
+      <td>Checkout antes das 12:00</td>
+      <td>7</td>
+      <td>6</td>
+      <td>180.0</td>
+      <td>321172190</td>
+      <td>2025-01-13 02:58:44.000</td>
+      <td>5.00</td>
+      <td>23</td>
+      <td>0</td>
+      <td>5</td>
+      <td>casa</td>
+      <td>True</td>
+      <td>False</td>
+      <td>4.83</td>
+      <td>4.5</td>
+      <td>5.00</td>
+      <td>5.00</td>
+      <td>4.83</td>
+      <td>5.00</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>54177663</td>
+      <td>https://www.airbnb.com.br/rooms/54177663</td>
+      <td>Apartamento em meia praia</td>
+      <td>Na data da virada alugamos a partir de 7 dia</td>
+      <td>NaN</td>
+      <td>["Máximo de 6 hóspedes", "Permitido animais de estimação", "É permitido fumar"]</td>
+      <td>["Secador de cabelo", "Água quente", "Máquina de Lavar", "Básico", "Roupa de cama", "Cobertores e travesseiros extras", "Ferro de passar", "Varal para secar roupas", "Local para guardar as roupas", "Conexão à Ethernet", "HDTV com TV a cabo", "Ar-condicionado split", "Ventilador de teto", "Extintor de incêndio", "Wi-Fi", "Espaço de trabalho exclusivo", "Cozinha", "Refrigerador", "Microondas", "Itens básicos de cozinha", "Louças e talheres", "Freezer", "Fogão", "Forno", "Chaleira de água quente", "Torradeira", "Liquidificador", "Lixeira compactadora", "Utensílios para churrasco", "Mesa de jantar", "Acesso à praia (à beira-mar)", "Lavanderia nas proximidades", "Pátio ou varanda (Privativa)", "Móveis externos", "Área de jantar externa", "Churrasqueira", "Estacionamento incluído", "Estacionamento gratuito na rua", "Permitido animais", "Permitido fumar", "Self check-in", "Cofre de chaves"]</td>
+      <td>["Alarme de monóxido de carbono não informado", "Detector de fumaça não informado"]</td>
+      <td>2.0</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>6</td>
+      <td>0</td>
+      <td>300.0</td>
+      <td>389650375</td>
+      <td>2025-01-13 02:58:45.000</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>apartamento</td>
+      <td>True</td>
+      <td>False</td>
+      <td>0.00</td>
+      <td>0.0</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>51975323</td>
+      <td>https://www.airbnb.com.br/rooms/51975323</td>
+      <td>3 Suítes, Belíssimo, 2 gar-Meia Praia - Itapema/SC</td>
+      <td>3 SUÍTES, BELÍSSIMO, MEIA PRAIA - TEMPORADA VERÃO&lt;br /&gt;EXCELENTE LOCALIZAÇÃO.&lt;br /&gt;PRÓXIMO AO SUPERMERCADO OFERTÃO.&lt;br /&gt;PRÓXIMO CHURRASCARIA COSTELAÇO DO TONHO.&lt;br /&gt;PERTINHO DA FECCAT FEIRA DE CALÇADOS.&lt;br /&gt;&lt;br /&gt;3 SUÍTES.&lt;br /&gt;SUÍTES COM AR CONDICIONADO.&lt;br /&gt;LIVING EM DOIS AMBIENTES.&lt;br /&gt;LIVING INTEGRADO COM CHURRASQUEIRA.&lt;br /&gt;COZINHA, LAVABO, ÁREA DE SERVIÇO.&lt;br /&gt;2 VAGAS DE GARAGEM.&lt;br /&gt;SUA FAMÍLIA MERECE O MELHOR.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Outras observações&lt;/b&gt;&lt;br /&gt;• Nós queríamos ressaltar que, infelizmente, não fornecemos roupas de cama e banho para nossos hóspedes. Sugerimos que você traga seus próprios para maior conforto durante sua estadia. Se preferir, podemos indicar uma empresa que trabalha com aluguel desses itens durante sua hospedagem.&lt;br /&gt;&lt;br /&gt;• Não temos artigos de praia disponíveis para uso durante sua visita. Então, se você planeja passar um tempo na praia, traga seus próprios equipamentos.&lt;br /&gt;&lt;br /&gt;• Nossa eletricidade é fornecida em uma voltagem de 220W, então, se você planeja trazer aparelhos eletrônicos, verifique se eles são compatíveis antes de usá-los.&lt;br /&gt;&lt;br /&gt;Estou completamente disponível para esclarecer todas as suas dúvidas, tanto antes quanto durante a sua estadia</td>
+      <td>NaN</td>
+      <td>["Máximo de 8 hóspedes"]</td>
+      <td>["Máquina de Lavar", "Ferro de passar", "TV", "Ar-condicionado", "Extintor de incêndio", "Wi-Fi", "Espaço de trabalho exclusivo", "Cozinha", "Itens básicos de cozinha", "Entrada privada", "Estacionamento incluído", "Elevador"]</td>
+      <td>["Alarme de monóxido de carbono não informado", "Detector de fumaça não informado"]</td>
+      <td>3.0</td>
+      <td>3</td>
+      <td>5</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>Check-in: 14:00 - 18:00</td>
+      <td>Checkout antes das 09:00</td>
+      <td>8</td>
+      <td>2</td>
+      <td>400.0</td>
+      <td>298545921</td>
+      <td>2025-01-13 02:58:33.000</td>
+      <td>4.50</td>
+      <td>30</td>
+      <td>0</td>
+      <td>4</td>
+      <td>apartamento</td>
+      <td>False</td>
+      <td>False</td>
+      <td>4.50</td>
+      <td>3.5</td>
+      <td>2.50</td>
+      <td>5.00</td>
+      <td>4.00</td>
+      <td>5.00</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>Nulos mais comuns por coluna: n/a (todas listadas abaixo)<p><b>Metadados (tipo e nulos por coluna):</b></p><table class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th>coluna</th>
+      <th>tipo</th>
+      <th>nulos</th>
+      <th>nao_nulos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>airbnb_listing_id</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>url</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>ad_name</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>ad_description</td>
+      <td>str</td>
+      <td>54</td>
+      <td>4387</td>
+    </tr>
+    <tr>
+      <td>space</td>
+      <td>str</td>
+      <td>2527</td>
+      <td>1914</td>
+    </tr>
+    <tr>
+      <td>house_rules</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>amenities</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>safety_features</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>number_of_bathrooms</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>number_of_bedrooms</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>number_of_beds</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>latitude</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>longitude</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>check_in</td>
+      <td>str</td>
+      <td>446</td>
+      <td>3995</td>
+    </tr>
+    <tr>
+      <td>check_out</td>
+      <td>str</td>
+      <td>842</td>
+      <td>3599</td>
+    </tr>
+    <tr>
+      <td>number_of_guests</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>number_of_reviews</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>cleaning_fee</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>owner_id</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>aquisition_date</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>star_rating</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>picture_count</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>min_nights</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>guest_satisfaction_overall</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>listing_type</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>can_instant_book</td>
+      <td>object</td>
+      <td>355</td>
+      <td>4086</td>
+    </tr>
+    <tr>
+      <td>is_professional</td>
+      <td>object</td>
+      <td>355</td>
+      <td>4086</td>
+    </tr>
+    <tr>
+      <td>accuracy_rating</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>checkin_rating</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>cleanliness_rating</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>communication_rating</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>location_rating</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>value_rating</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>is_new_listing</td>
+      <td>object</td>
+      <td>874</td>
+      <td>3567</td>
+    </tr>
+    <tr>
+      <td>is_guest_favorite</td>
+      <td>bool</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+  </tbody>
+</table><hr/><h2>Hosts_ids_Itapema.csv <small>(4,440 linhas | 11 colunas)</small></h2><p><b>Amostra (5 primeiras linhas):</b></p><table class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th></th>
+      <th>owner_id</th>
+      <th>owner</th>
+      <th>is_superhost</th>
+      <th>number_of_reviews_host</th>
+      <th>is_verified</th>
+      <th>star_rating_host</th>
+      <th>years_host</th>
+      <th>months_host</th>
+      <th>response_rate_shown</th>
+      <th>response_time_shown</th>
+      <th>host_snapshot_date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>167418369</td>
+      <td>Cristiane</td>
+      <td>False</td>
+      <td>1.0</td>
+      <td>True</td>
+      <td>5.00</td>
+      <td>0</td>
+      <td>10</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2025-01-13 02:25:40.000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>433162432</td>
+      <td>Adriana</td>
+      <td>False</td>
+      <td>28.0</td>
+      <td>True</td>
+      <td>4.89</td>
+      <td>3</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2025-01-13 02:25:41.000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>156933100</td>
+      <td>Carla</td>
+      <td>False</td>
+      <td>0.0</td>
+      <td>True</td>
+      <td>0.00</td>
+      <td>7</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2025-01-13 02:58:06.000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>175320187</td>
+      <td>Vitalino Ortiz</td>
+      <td>True</td>
+      <td>38.0</td>
+      <td>True</td>
+      <td>4.87</td>
+      <td>1</td>
+      <td>4</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2025-01-13 02:58:25.000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>108479878</td>
+      <td>Jarbas</td>
+      <td>False</td>
+      <td>233.0</td>
+      <td>True</td>
+      <td>4.91</td>
+      <td>8</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2025-01-13 02:58:26.000</td>
+    </tr>
+  </tbody>
+</table>Nulos mais comuns por coluna: n/a (todas listadas abaixo)<p><b>Metadados (tipo e nulos por coluna):</b></p><table class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th>coluna</th>
+      <th>tipo</th>
+      <th>nulos</th>
+      <th>nao_nulos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>owner_id</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4440</td>
+    </tr>
+    <tr>
+      <td>owner</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4440</td>
+    </tr>
+    <tr>
+      <td>is_superhost</td>
+      <td>bool</td>
+      <td>0</td>
+      <td>4440</td>
+    </tr>
+    <tr>
+      <td>number_of_reviews_host</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4440</td>
+    </tr>
+    <tr>
+      <td>is_verified</td>
+      <td>bool</td>
+      <td>0</td>
+      <td>4440</td>
+    </tr>
+    <tr>
+      <td>star_rating_host</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4440</td>
+    </tr>
+    <tr>
+      <td>years_host</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4440</td>
+    </tr>
+    <tr>
+      <td>months_host</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4440</td>
+    </tr>
+    <tr>
+      <td>response_rate_shown</td>
+      <td>float64</td>
+      <td>4440</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>response_time_shown</td>
+      <td>float64</td>
+      <td>4440</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>host_snapshot_date</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4440</td>
+    </tr>
+  </tbody>
+</table><hr/><h2>Mesh_Ids_Data_Itapema.csv <small>(4,441 linhas | 8 colunas)</small></h2><p><b>Amostra (5 primeiras linhas):</b></p><table class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th></th>
+      <th>airbnb_listing_id</th>
+      <th>latitude</th>
+      <th>longitude</th>
+      <th>suburb</th>
+      <th>country</th>
+      <th>state</th>
+      <th>city</th>
+      <th>aquisition_date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1207992119242235910</td>
+      <td>-27.093060</td>
+      <td>-48.613260</td>
+      <td>Centro</td>
+      <td>Brasil</td>
+      <td>Santa Catarina</td>
+      <td>Itapema</td>
+      <td>2025-11-03 19:00:38.406</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>794092172388379022</td>
+      <td>-27.094049</td>
+      <td>-48.612091</td>
+      <td>Centro</td>
+      <td>Brasil</td>
+      <td>Santa Catarina</td>
+      <td>Itapema</td>
+      <td>2023-06-26 19:14:29.000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>768031350632379804</td>
+      <td>-27.136000</td>
+      <td>-48.598999</td>
+      <td>Meia Praia</td>
+      <td>Brasil</td>
+      <td>Santa Catarina</td>
+      <td>Itapema</td>
+      <td>2022-12-06 12:43:34.000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>753076868199108828</td>
+      <td>-27.124130</td>
+      <td>-48.608150</td>
+      <td>Meia Praia</td>
+      <td>Brasil</td>
+      <td>Santa Catarina</td>
+      <td>Itapema</td>
+      <td>2024-10-07 19:41:57.002</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>540415335028124722</td>
+      <td>-27.132000</td>
+      <td>-48.598999</td>
+      <td>Meia Praia</td>
+      <td>Brasil</td>
+      <td>Santa Catarina</td>
+      <td>Itapema</td>
+      <td>2023-01-19 12:18:27.000</td>
+    </tr>
+  </tbody>
+</table>Nulos mais comuns por coluna: n/a (todas listadas abaixo)<p><b>Metadados (tipo e nulos por coluna):</b></p><table class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th>coluna</th>
+      <th>tipo</th>
+      <th>nulos</th>
+      <th>nao_nulos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>airbnb_listing_id</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>latitude</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>longitude</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>suburb</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>country</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>state</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>city</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+    <tr>
+      <td>aquisition_date</td>
+      <td>str</td>
+      <td>0</td>
+      <td>4441</td>
+    </tr>
+  </tbody>
+</table><hr/><h2>Price_AV_Itapema.csv <small>(118,839 linhas | 4 colunas)</small></h2><p><b>Amostra (5 primeiras linhas):</b></p><table class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th></th>
+      <th>airbnb_listing_id</th>
+      <th>date</th>
+      <th>price</th>
+      <th>aquisition_date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1002785860497857801</td>
+      <td>2025-01-23</td>
+      <td>800.0</td>
+      <td>2025-01-07 13:25:06.000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1002785860497857801</td>
+      <td>2025-02-15</td>
+      <td>700.0</td>
+      <td>2025-01-07 13:25:06.000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1002785860497857801</td>
+      <td>2025-02-20</td>
+      <td>700.0</td>
+      <td>2025-01-07 13:25:06.000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1002785860497857801</td>
+      <td>2025-02-21</td>
+      <td>700.0</td>
+      <td>2025-01-07 13:25:06.000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1002785860497857801</td>
+      <td>2025-02-28</td>
+      <td>700.0</td>
+      <td>2025-01-07 13:25:06.000</td>
+    </tr>
+  </tbody>
+</table>Nulos mais comuns por coluna: n/a (todas listadas abaixo)<p><b>Metadados (tipo e nulos por coluna):</b></p><table class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th>coluna</th>
+      <th>tipo</th>
+      <th>nulos</th>
+      <th>nao_nulos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>airbnb_listing_id</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>118839</td>
+    </tr>
+    <tr>
+      <td>date</td>
+      <td>str</td>
+      <td>0</td>
+      <td>118839</td>
+    </tr>
+    <tr>
+      <td>price</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>118839</td>
+    </tr>
+    <tr>
+      <td>aquisition_date</td>
+      <td>str</td>
+      <td>0</td>
+      <td>118839</td>
+    </tr>
+  </tbody>
+</table><hr/><h2>VivaReal_Itapema.csv <small>(8,329 linhas | 22 colunas)</small></h2><p><b>Amostra (5 primeiras linhas):</b></p><table class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th></th>
+      <th>listing_id</th>
+      <th>link_url</th>
+      <th>listing_title</th>
+      <th>business_types</th>
+      <th>listing_type</th>
+      <th>property_type</th>
+      <th>sale_price</th>
+      <th>rental_price</th>
+      <th>rental_period</th>
+      <th>yearly_iptu</th>
+      <th>monthly_condo_fee</th>
+      <th>amenities</th>
+      <th>usable_area</th>
+      <th>bathrooms</th>
+      <th>bedrooms</th>
+      <th>parking_spaces</th>
+      <th>state</th>
+      <th>city</th>
+      <th>suburb</th>
+      <th>advertiser_name</th>
+      <th>portal</th>
+      <th>aquisition_date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2687011752</td>
+      <td>https://www.vivareal.com.br/imovel/apartamento-3-quartos-meia-praia-bairros-itapema-com-garagem-131m2-venda-RS1598122-id-2687011752/</td>
+      <td>ITAPEMA - Apartamento Padrão - Meia Praia</td>
+      <td>Venda</td>
+      <td>apartamento</td>
+      <td>UNIT</td>
+      <td>1598122.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>["POOL", "ELEVATOR", "PLAYGROUND", "PARTY_HALL"]</td>
+      <td>131</td>
+      <td>4</td>
+      <td>3</td>
+      <td>2</td>
+      <td>SC</td>
+      <td>Itapema</td>
+      <td>Meia Praia</td>
+      <td>Leonardo Batista</td>
+      <td>GRUPOZAP</td>
+      <td>2025-01-11 00:00:00.000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2697432835</td>
+      <td>https://www.vivareal.com.br/imovel/apartamento-3-quartos-castelo-branco-bairros-itapema-com-garagem-118m2-venda-RS1450000-id-2697432835/</td>
+      <td>Apartamento com 118 m² 3 suítes em Itapema - SC - REF. 9076</td>
+      <td>Venda</td>
+      <td>apartamento</td>
+      <td>UNIT</td>
+      <td>1450000.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>[]</td>
+      <td>118</td>
+      <td>4</td>
+      <td>3</td>
+      <td>2</td>
+      <td>SC</td>
+      <td>Itapema</td>
+      <td>Meia Praia</td>
+      <td>JMARINHO IMÓVEIS</td>
+      <td>GRUPOZAP</td>
+      <td>2025-01-11 00:00:00.000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2612161501</td>
+      <td>https://www.vivareal.com.br/imovel/apartamento-3-quartos-meia-praia-bairros-itapema-com-garagem-125m2-venda-RS1500000-id-2612161501/</td>
+      <td>Apartamento 03 Suítes e 03 Vagas na Meia Praia</td>
+      <td>Venda</td>
+      <td>apartamento</td>
+      <td>UNIT</td>
+      <td>1500000.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>["FURNISHED", "KITCHEN"]</td>
+      <td>125</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>SC</td>
+      <td>Itapema</td>
+      <td>Castelo Branco</td>
+      <td>CONFIARI INVESTIMENTOS IMOBILIÁRIOS</td>
+      <td>GRUPOZAP</td>
+      <td>2025-01-11 00:00:00.000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2598271159</td>
+      <td>https://www.vivareal.com.br/imovel/apartamento-2-quartos-morretes-bairros-itapema-com-garagem-70m2-venda-RS870000-id-2598271159/</td>
+      <td>Apartamento à venda de 2 quartos em Itapema SC</td>
+      <td>Venda</td>
+      <td>apartamento</td>
+      <td>UNIT</td>
+      <td>870000.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>800.0</td>
+      <td>350.0</td>
+      <td>["POOL", "BARBECUE_GRILL", "ELEVATOR", "BALCONY", "GYM", "PETS_ALLOWED", "GOURMET_SPACE", "PLAYGROUND", "GOURMET_BALCONY", "BARBECUE_BALCONY", "CHILDRENS_POOL", "PARTY_HALL", "NEAR_ACCESS_ROADS", "RECREATION_AREA", "SOUNDPROOFING", "LARGE_WINDOW", "TOYS_PLACE", "SOLARIUM", "DISABLED_ACCESS", "GAMES_ROOM", "ADULT_POOL", "ELECTRONIC_GATE", "ENTRANCE_HALL"]</td>
+      <td>70</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+      <td>SC</td>
+      <td>Itapema</td>
+      <td>Morretes</td>
+      <td>PB IMÓVEIS</td>
+      <td>GRUPOZAP</td>
+      <td>2025-01-11 00:00:00.000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2691331590</td>
+      <td>https://www.vivareal.com.br/imovel/apartamento-3-quartos-meia-praia-bairros-itapema-com-garagem-130m2-venda-RS2150000-id-2691331590/</td>
+      <td>Apartamento 3 Suítes, 3 Vagas - Meia Praia - Itapema - SC</td>
+      <td>Venda</td>
+      <td>apartamento</td>
+      <td>UNIT</td>
+      <td>2150000.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>["POOL", "FURNISHED", "BARBECUE_GRILL", "ELEVATOR", "GATED_COMMUNITY", "GYM", "PETS_ALLOWED", "GOURMET_SPACE", "AIR_CONDITIONING", "PLAYGROUND", "GOURMET_BALCONY", "PARTY_HALL", "BICYCLES_PLACE", "BUILTIN_WARDROBE", "AMERICAN_KITCHEN", "GAMES_ROOM", "DISABLED_ACCESS", "SPA", "ELECTRONIC_GATE"]</td>
+      <td>130</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td>SC</td>
+      <td>Itapema</td>
+      <td>Andorinha</td>
+      <td>Adriano Ramos</td>
+      <td>GRUPOZAP</td>
+      <td>2025-01-11 00:00:00.000</td>
+    </tr>
+  </tbody>
+</table>Nulos mais comuns por coluna: n/a (todas listadas abaixo)<p><b>Metadados (tipo e nulos por coluna):</b></p><table class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th>coluna</th>
+      <th>tipo</th>
+      <th>nulos</th>
+      <th>nao_nulos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>listing_id</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>link_url</td>
+      <td>str</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>listing_title</td>
+      <td>str</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>business_types</td>
+      <td>str</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>listing_type</td>
+      <td>str</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>property_type</td>
+      <td>str</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>sale_price</td>
+      <td>float64</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>rental_price</td>
+      <td>float64</td>
+      <td>8327</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>rental_period</td>
+      <td>str</td>
+      <td>8327</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>yearly_iptu</td>
+      <td>float64</td>
+      <td>2714</td>
+      <td>5615</td>
+    </tr>
+    <tr>
+      <td>monthly_condo_fee</td>
+      <td>float64</td>
+      <td>2490</td>
+      <td>5839</td>
+    </tr>
+    <tr>
+      <td>amenities</td>
+      <td>str</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>usable_area</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>bathrooms</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>bedrooms</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>parking_spaces</td>
+      <td>int64</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>state</td>
+      <td>str</td>
+      <td>2</td>
+      <td>8327</td>
+    </tr>
+    <tr>
+      <td>city</td>
+      <td>str</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>suburb</td>
+      <td>str</td>
+      <td>98</td>
+      <td>8231</td>
+    </tr>
+    <tr>
+      <td>advertiser_name</td>
+      <td>str</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>portal</td>
+      <td>str</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+    <tr>
+      <td>aquisition_date</td>
+      <td>str</td>
+      <td>0</td>
+      <td>8329</td>
+    </tr>
+  </tbody>
+</table><hr/></body></html>
